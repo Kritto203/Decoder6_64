@@ -1,0 +1,45 @@
+[32743:2024-08-16 15:46:37.850] Starting service 'mapper' (Node ID=0, Host Name=capacitor)
+[32743:2024-08-16 15:46:37.908] <Redis> 32745:C 16 Aug 2024 15:46:37.908 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+[32743:2024-08-16 15:46:37.909] <Redis> 32745:C 16 Aug 2024 15:46:37.908 # Redis version=6.2.1, bits=64, commit=00000000, modified=0, pid=32745, just started
+[32743:2024-08-16 15:46:37.909] <Redis> 32745:C 16 Aug 2024 15:46:37.908 # Configuration loaded
+[32743:2024-08-16 15:46:37.911] <Redis> 32745:M 16 Aug 2024 15:46:37.910 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+[32743:2024-08-16 15:46:37.911] <Redis> 32745:M 16 Aug 2024 15:46:37.910 # Server can't set maximum open files to 10032 because of OS error: Operation not permitted.
+[32743:2024-08-16 15:46:37.911] <Redis> 32745:M 16 Aug 2024 15:46:37.910 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+[32743:2024-08-16 15:46:37.912] <Redis> 32745:M 16 Aug 2024 15:46:37.910 * monotonic clock: POSIX clock_gettime
+[32743:2024-08-16 15:46:37.912] <Redis> 32745:M 16 Aug 2024 15:46:37.912 * Running mode=standalone, port=40883.
+[32743:2024-08-16 15:46:37.912] <Redis> 32745:M 16 Aug 2024 15:46:37.912 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+[32743:2024-08-16 15:46:37.912] <Redis> 32745:M 16 Aug 2024 15:46:37.912 # Server initialized
+[32743:2024-08-16 15:46:37.913] <Redis> 32745:M 16 Aug 2024 15:46:37.912 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+[32743:2024-08-16 15:46:37.913] <Redis> 32745:M 16 Aug 2024 15:46:37.912 * Ready to accept connections
+[32743:2024-08-16 15:46:37.913] Launched Redis process 32745 (Service Mapper) on address 127.0.0.1:40883. Attempting to connect...
+[32743:2024-08-16 15:46:37.914] Attempt #1 successfully connected to Redis at 127.0.0.1:40883
+[32743:2024-08-16 15:46:37.914] <Redis> 32745:M 16 Aug 2024 15:46:37.912 * The server is now ready to accept connections at /tmp/icv_W0gSLt/mapper
+[32743:2024-08-16 15:46:37.991] Wrote service info file to run_details/dp_work/service_info
+[32742:2024-08-16 15:46:47.992] [2024-08-16 15:46:38.002] Service 'launcher:0' registered on capacitor:43286
+[32754:2024-08-16 15:46:47.993] [2024-08-16 15:46:38.394] Service 'dashboard_mail' registered on capacitor:43388
+[32751:2024-08-16 15:46:47.993] [2024-08-16 15:46:38.416] Service 'cluster' registered on capacitor:51045
+[32750:2024-08-16 15:46:47.993] [2024-08-16 15:46:38.418] Service 'license_manager' registered on capacitor:38244
+[32753:2024-08-16 15:46:47.993] [2024-08-16 15:46:38.421] Service 'lock_manager' registered on capacitor:43234
+[32752:2024-08-16 15:46:47.993] [2024-08-16 15:46:38.865] Service 'hdb' registered on capacitor:41194
+[32759:2024-08-16 15:46:47.993] [2024-08-16 15:46:39.095] Service 'memory_manager' registered on capacitor:52876
+[32760:2024-08-16 15:46:47.993] [2024-08-16 15:46:39.098] Service 'cleanup' registered on capacitor:52501
+[32749:2024-08-16 15:46:47.993] [2024-08-16 15:46:45.288] Service 'add_host' registered on capacitor:34663
+[32791:2024-08-16 15:46:47.994] [2024-08-16 15:46:45.676] Per-host service 'worker_pool:capacitor' registered on capacitor:42513
+[32791:2024-08-16 15:46:47.994] [2024-08-16 15:46:45.676] Per-host service 'host_stats:capacitor' registered on capacitor:39068
+[32759:2024-08-16 15:46:57.856] [2024-08-16 15:46:57.782] Removing service 'memory_manager'
+[32749:2024-08-16 15:46:57.856] [2024-08-16 15:46:57.798] Removing service 'add_host'
+[32742:2024-08-16 15:46:57.856] [2024-08-16 15:46:57.839] Removing service 'launcher:0'
+[32751:2024-08-16 15:46:57.856] [2024-08-16 15:46:57.839] Removing service 'cluster'
+[32752:2024-08-16 15:46:57.856] [2024-08-16 15:46:57.839] Removing service 'hdb'
+[32753:2024-08-16 15:46:57.856] [2024-08-16 15:46:57.839] Removing service 'lock_manager'
+[32750:2024-08-16 15:46:57.856] [2024-08-16 15:46:57.839] Removing service 'license_manager'
+[32754:2024-08-16 15:46:57.856] [2024-08-16 15:46:57.839] Removing service 'dashboard_mail'
+[32791:2024-08-16 15:46:57.857] [2024-08-16 15:46:57.854] Removing service 'worker_pool:capacitor'
+[32791:2024-08-16 15:46:57.857] [2024-08-16 15:46:57.854] Removing service 'host_stats:capacitor'
+[32743:2024-08-16 15:46:57.857] Received signal 15 (Terminated). Exiting.
+[32743:2024-08-16 15:46:57.859] <Redis> 32745:M 16 Aug 2024 15:46:57.857 # User requested shutdown...
+[32743:2024-08-16 15:46:57.859] <Redis> 32745:M 16 Aug 2024 15:46:57.857 * Removing the unix socket file.
+[32743:2024-08-16 15:46:57.859] <Redis> 32745:M 16 Aug 2024 15:46:57.857 # Redis is now ready to exit, bye bye...
+[32743:2024-08-16 15:46:57.859] Pipe is closed from from Redis.
+[32743:2024-08-16 15:46:57.859] /tmp/icv_W0gSLt is removed
+[32743:2024-08-16 15:46:57.860] Service info file run_details/dp_work/service_info is removed.

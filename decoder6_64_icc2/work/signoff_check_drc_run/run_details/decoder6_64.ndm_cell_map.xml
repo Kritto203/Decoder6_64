@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!-- Created by IC Validator 2023.12-SP3-1 on Fri Aug 16 15:46:47 2024
+ -->
+<icvCellMap version="1.1">
+  <library name="saed14rvt_tt0p8v25c" path="/home/sv1/K21_CLC/thai/decoder6_64/decoder6_64_icc2/work/CLIBs/saed14rvt_tt0p8v25c.ndm"/>
+  <library name="decoder6_64" path="/home/sv1/K21_CLC/thai/decoder6_64/decoder6_64_icc2/work/decoder6_64"/>
+  <library name="saed14rvt_tt0p8v25c_physical_only" path="/home/sv1/K21_CLC/thai/decoder6_64/decoder6_64_icc2/work/CLIBs/saed14rvt_tt0p8v25c_physical_only.ndm"/>
+  <cell id="1" unique_name="SAEDRVT14_AN3_0P5" orig_name="SAEDRVT14_AN3_0P5" type="drc_black_box" parent_library="decoder6_64" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed14rvt_tt0p8v25c" type="main"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="3" unique_name="SAEDRVT14_NR2_ISO_1" orig_name="SAEDRVT14_NR2_ISO_1" type="drc_black_box" parent_library="decoder6_64" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed14rvt_tt0p8v25c" type="main"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="2" unique_name="SAEDRVT14_AN2_1" orig_name="SAEDRVT14_AN2_1" type="drc_black_box" parent_library="decoder6_64" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed14rvt_tt0p8v25c" type="main"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="4" unique_name="SAEDRVT14_INV_0P5" orig_name="SAEDRVT14_INV_0P5" type="drc_black_box" parent_library="decoder6_64" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed14rvt_tt0p8v25c" type="main"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="5" unique_name="SAEDRVT14_FILL2" orig_name="SAEDRVT14_FILL2" type="drc_black_box" parent_library="decoder6_64" default_view="timing" default_phys_view="frame" design_type="filler">
+    <view name="frame" library="saed14rvt_tt0p8v25c" type="main"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="6" unique_name="SAEDRVT14_FILL_ECO_1" orig_name="SAEDRVT14_FILL_ECO_1" type="drc_black_box" parent_library="decoder6_64" default_view="timing" default_phys_view="frame" design_type="filler">
+    <view name="frame" library="saed14rvt_tt0p8v25c" type="main"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="0" unique_name="decoder6_64" orig_name="decoder6_64" type="design" parent_library="decoder6_64" design_type="module">
+    <view name="design" library="decoder6_64" type="main"/>
+    <use_stream_mode/>
+  </cell>
+</icvCellMap>

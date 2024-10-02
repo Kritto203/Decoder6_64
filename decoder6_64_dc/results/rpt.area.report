@@ -1,0 +1,31 @@
+ 
+****************************************
+Report : area
+Design : decoder6_64
+Version: U-2022.12-SP3
+Date   : Fri Aug 16 17:03:45 2024
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    saed14rvt_tt0p8v25c (File: /home/sv1/K21_CLC/thai/decoder6_64/decoder6_64_dc/ref/db_nldm/saed14rvt_tt0p8v25c.db)
+
+Number of ports:                          179
+Number of nets:                           232
+Number of cells:                          126
+Number of combinational cells:            117
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                         27
+Number of references:                       9
+
+Combinational area:                 34.765199
+Buf/Inv area:                        4.795200
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:              45.667688
+
+Total cell area:                    34.765199
+Total area:                         80.432887
+1

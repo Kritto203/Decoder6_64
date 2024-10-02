@@ -1,0 +1,15 @@
+ICV_HOME_DIR      = /home/cad/synopsys/icvalidator/V-2023.12-SP3-1
+ICV_COORDS_BIT    = 32
+WORKING_DIR       = .
+INLIB             = decoder6_64
+INLIB_PATH        = /home/sv1/K21_CLC/thai/decoder6_64/decoder6_64_icc2/work
+BLOCK             = decoder6_64
+CREATE_VUE_OUTPUT = FALSE
+PYDB_PATH         = run_details/pydb
+RUN_DETAILS_DIR   = run_details
+NDB_PATH          = run_details/.ndb
+REPORT_LAYOUT_ERRORS = HIERARCHICAL
+FORMAT            = NDM
+SCHEMATIC_FORMAT  = ICV
+GROUP_PATH        = run_details/group
+RUNSET_FILE_NAME  = saed14nm_1p9m_drc_rules.rs

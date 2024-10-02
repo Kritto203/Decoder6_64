@@ -1,0 +1,37 @@
+[32742:2024-08-16 15:46:37.449] Starting service 'launcher' (Node ID=0, Host Name=capacitor)
+[32742:2024-08-16 15:46:37.450] Service Launcher starting
+[32742:2024-08-16 15:46:37.450] Starting service mapper
+[32742:2024-08-16 15:46:37.450] Started service mapper with PID 32743
+[32742:2024-08-16 15:46:37.450] Loading service mapper info
+[32742:2024-08-16 15:46:38.002] Starting services
+[32742:2024-08-16 15:46:38.003] Started service license_manager with PID 32750
+[32742:2024-08-16 15:46:38.003] Started service cluster with PID 32751
+[32742:2024-08-16 15:46:38.004] Started service hdb with PID 32752
+[32742:2024-08-16 15:46:38.004] Started service lock_manager with PID 32753
+[32742:2024-08-16 15:46:38.004] Started service dashboard_mail with PID 32754
+[32742:2024-08-16 15:46:38.005] Started service log_manager with PID 32755
+[32742:2024-08-16 15:46:38.420] Service 'log_manager' with PID 32755 exited with exit status 33
+[32742:2024-08-16 15:46:57.839] Received signal 15. Shutting down.
+[32742:2024-08-16 15:46:57.839] Shutting down service 'cluster'
+[32742:2024-08-16 15:46:57.839]     Closing die FD
+[32742:2024-08-16 15:46:57.839] Shutting down service 'dashboard_mail'
+[32742:2024-08-16 15:46:57.839]     Closing die FD
+[32742:2024-08-16 15:46:57.839] Shutting down service 'hdb'
+[32742:2024-08-16 15:46:57.839]     Closing die FD
+[32742:2024-08-16 15:46:57.839] Shutting down service 'license_manager'
+[32742:2024-08-16 15:46:57.839]     Closing die FD
+[32742:2024-08-16 15:46:57.839] Shutting down service 'lock_manager'
+[32742:2024-08-16 15:46:57.839]     Closing die FD
+[32742:2024-08-16 15:46:57.839] Waiting for service shutdown
+[32742:2024-08-16 15:46:57.853] Service 'cluster' with PID 32751 exited with exit status 0
+[32742:2024-08-16 15:46:57.853] Service 'license_manager' with PID 32750 exited with exit status 0
+[32742:2024-08-16 15:46:57.853] Service 'hdb' with PID 32752 exited with exit status 0
+[32742:2024-08-16 15:46:57.855] Service 'lock_manager' with PID 32753 exited with exit status 0
+[32742:2024-08-16 15:46:57.855] Service 'dashboard_mail' with PID 32754 exited with exit status 0
+[32742:2024-08-16 15:46:57.855] Waited 0 seconds on services to shutdown
+[32742:2024-08-16 15:46:57.855] Shutting down service 'mapper'
+[32742:2024-08-16 15:46:57.855]     Sending SIGTERM to PID 32743
+[32742:2024-08-16 15:46:57.855] Waiting for service shutdown
+[32742:2024-08-16 15:46:57.861] Service 'mapper' with PID 32743 exited with exit status 0
+[32742:2024-08-16 15:46:57.861] Waited 0 seconds on services to shutdown
+[32742:2024-08-16 15:46:57.861] Service Launcher exiting

@@ -1,0 +1,11 @@
+#! /bin/sh
+
+echo $HOSTNAME | grep capacitor > /dev/null 2>&1 
+if [ $? == 0  ]
+then 
+kill 32749 
+else 
+ssh capacitor kill 32749 
+ sleep 10 
+ssh capacitor kill -9 32749 
+fi

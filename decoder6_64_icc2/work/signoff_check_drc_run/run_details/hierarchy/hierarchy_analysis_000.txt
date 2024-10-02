@@ -1,0 +1,86 @@
+* Description of frequently used terms in hierarchy_analysis files*
+M indicates that the value of that column is in millions
+Hier Plc Count(Hierarchical Placement Count) : Number of unique instances of the cell in another cell (Parent)
+Flat Plc Count(Flat Placement Count)         : Total number of instances of the cell in the layout
+
+Example : 
+                               A                     
+                              / \                   Cell  Hier Plc Count Flat Plc Count 
+                             /   \                     A               1              1 
+                            B     B                    B               2              2 
+                           / \  /  \                   C               2              4 
+                          C   C C   C                
+------------------------------------------------------------------------------------------------------ 
+
+
+* Cells with flat area > 0.01 of top cell *
+Reports cells with flat area > 0.01 of top cell
+
+Flat A(Flat Area) : Total area covered by this cell in the layout(cell area * flat placement count)
+Cell A(Cell Area) : Area of this cell
+Percent of top    : Percentage of area of this cell w.r.t area of top cell
+This table contains 7 entries
+Original table contains 7 entries
+
+ Name                                          | Flat A (mm^2), Cell A (mm^2), Flat Plc Count, Hier Plc Count, Percent of top
+-----------------------------------------------
+ SAEDRVT14_FILL_ECO_1                          |         0.000,         0.000,            331,            331,       150.51 %
+ decoder6_64                                   |         0.000,         0.000,              1,              1,       100.00 %
+ SAEDRVT14_AN3_0P5                             |         0.000,         0.000,             72,             72,        55.06 %
+ SAEDRVT14_FILL2                               |         0.000,         0.000,             79,             79,        36.25 %
+ SAEDRVT14_INV_0P5                             |         0.000,         0.000,             27,             27,        12.41 %
+ SAEDRVT14_AN2_1                               |         0.000,         0.000,              9,              9,         6.19 %
+ SAEDRVT14_NR2_ISO_1                           |         0.000,         0.000,              9,              9,         4.63 %
+===============================================
+
+* Large-Area cells and child area ratio *
+This table reports cells with large areas and ratio of its area with total area covered by its children
+
+Num Inst(Number of instances) : Total Number of instances of the cell
+Child A(Child Area)           : Total area covered by all the children of the cell
+Pct of parent(Percent of area): Percentage of total area covered by its childern w.r.t area of this cell
+This table contains 7 entries
+Original table contains 7 entries
+
+ Name                                          | Flat A (mm^2), Cell A (mm^2), Num Inst (M), Child A (mm^2), Pct of parent
+-----------------------------------------------
+ SAEDRVT14_FILL_ECO_1                          |         0.000,         0.000,        0.000,         0.000,        0.00 %
+ decoder6_64                                   |         0.000,         0.000,        0.001,         0.000,      265.05 %
+ SAEDRVT14_AN3_0P5                             |         0.000,         0.000,        0.000,         0.000,        0.00 %
+ SAEDRVT14_FILL2                               |         0.000,         0.000,        0.000,         0.000,        0.00 %
+ SAEDRVT14_INV_0P5                             |         0.000,         0.000,        0.000,         0.000,        0.00 %
+ SAEDRVT14_AN2_1                               |         0.000,         0.000,        0.000,         0.000,        0.00 %
+ SAEDRVT14_NR2_ISO_1                           |         0.000,         0.000,        0.000,         0.000,        0.00 %
+===============================================
+
+* Layer Report with Estimated Data *
+Reports information of layers present in the layout
+
+Trap        : Number of hierarchical trapezoids in the layer
+Poly        : Number of hierarchical polygons in the layer
+Text        : Number of hierarchical text primitives in the layer
+Flat Trap   : Number of flat trapezoids 
+Flat Poly   : Number of flat polygons
+Flat Text   : Number of flat text primitives 
+Trap F/H    : Ratio of flat and hierarchical placements of the trapezoids
+Base, Metal, Via, Fill, Colored : Indicates layer intent
+This table contains 13 entries
+Original table contains 13 entries
+
+ Name                                          | Trap (M), Poly (M), Text (M), Flat Trap (M), Flat Poly (M), Flat Text (M), Trap F/H, Base, Metal, Via, Fill, Colored
+-----------------------------------------------
+ M2i                                           |    0.001,    0.001,    0.000,         0.001,         0.001,         0.000,     1.00,    0,     0,   0,    0,       0
+ M3i                                           |    0.001,    0.001,    0.000,         0.001,         0.001,         0.000,     1.00,    0,     0,   0,    0,       0
+ M1i                                           |    0.000,    0.000,    0.000,         0.004,         0.003,         0.000,     7.62,    0,     0,   0,    0,       0
+ VIA2i                                         |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     1.00,    0,     0,   0,    0,       0
+ VIA1i                                         |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     1.00,    0,     0,   0,    0,       0
+ M4i                                           |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     1.00,    0,     0,   0,    0,       0
+ VIA3i                                         |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     1.00,    0,     0,   0,    0,       0
+ M5i                                           |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     1.00,    0,     0,   0,    0,       0
+ POi                                           |    0.000,    0.000,    0.000,         0.002,         0.002,         0.000,    56.17,    0,     0,   0,    0,       0
+ VIA4i                                         |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     1.00,    0,     0,   0,    0,       0
+ DIFFi                                         |    0.000,    0.000,    0.000,         0.001,         0.000,         0.000,    44.07,    0,     0,   0,    0,       0
+ NWELLi                                        |    0.000,    0.000,    0.000,         0.001,         0.001,         0.000,    87.83,    0,     0,   0,    0,       0
+ FINi                                          |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     0.00,    0,     0,   0,    0,       0
+===============================================
+

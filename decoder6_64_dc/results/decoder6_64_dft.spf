@@ -1,0 +1,657 @@
+STIL 1.0 {
+    Design 2005;
+}
+Header {
+    Title "Minimal STIL for design `decoder6_64'";
+    Date "Fri Aug 16 17:05:26 2024";
+    Source "DFT Compiler U-2022.12-SP3";
+}
+Signals {
+    "A[0]" In;
+    "A[1]" In;
+    "A[2]" In;
+    "A[3]" In;
+    "A[4]" In;
+    "A[5]" In;
+    "SCANINPORT" In;
+    "SE" In;
+    "en" In;
+    "SCANOUTPORT" Out;
+    "Y[0]" Out;
+    "Y[10]" Out;
+    "Y[11]" Out;
+    "Y[12]" Out;
+    "Y[13]" Out;
+    "Y[14]" Out;
+    "Y[15]" Out;
+    "Y[16]" Out;
+    "Y[17]" Out;
+    "Y[18]" Out;
+    "Y[19]" Out;
+    "Y[1]" Out;
+    "Y[20]" Out;
+    "Y[21]" Out;
+    "Y[22]" Out;
+    "Y[23]" Out;
+    "Y[24]" Out;
+    "Y[25]" Out;
+    "Y[26]" Out;
+    "Y[27]" Out;
+    "Y[28]" Out;
+    "Y[29]" Out;
+    "Y[2]" Out;
+    "Y[30]" Out;
+    "Y[31]" Out;
+    "Y[32]" Out;
+    "Y[33]" Out;
+    "Y[34]" Out;
+    "Y[35]" Out;
+    "Y[36]" Out;
+    "Y[37]" Out;
+    "Y[38]" Out;
+    "Y[39]" Out;
+    "Y[3]" Out;
+    "Y[40]" Out;
+    "Y[41]" Out;
+    "Y[42]" Out;
+    "Y[43]" Out;
+    "Y[44]" Out;
+    "Y[45]" Out;
+    "Y[46]" Out;
+    "Y[47]" Out;
+    "Y[48]" Out;
+    "Y[49]" Out;
+    "Y[4]" Out;
+    "Y[50]" Out;
+    "Y[51]" Out;
+    "Y[52]" Out;
+    "Y[53]" Out;
+    "Y[54]" Out;
+    "Y[55]" Out;
+    "Y[56]" Out;
+    "Y[57]" Out;
+    "Y[58]" Out;
+    "Y[59]" Out;
+    "Y[5]" Out;
+    "Y[60]" Out;
+    "Y[61]" Out;
+    "Y[62]" Out;
+    "Y[63]" Out;
+    "Y[6]" Out;
+    "Y[7]" Out;
+    "Y[8]" Out;
+    "Y[9]" Out;
+}
+SignalGroups {
+    "all_inputs" = '"A[0]" + "A[1]" + "A[2]" + "A[3]" + "A[4]" + "A[5]" + 
+    "SCANINPORT" + "SE" + "en"';
+    "all_outputs" = '"SCANOUTPORT" + "Y[0]" + "Y[10]" + "Y[11]" + "Y[12]" + 
+    "Y[13]" + "Y[14]" + "Y[15]" + "Y[16]" + "Y[17]" + "Y[18]" + "Y[19]" + "Y[1]" 
+    + "Y[20]" + "Y[21]" + "Y[22]" + "Y[23]" + "Y[24]" + "Y[25]" + "Y[26]" + 
+    "Y[27]" + "Y[28]" + "Y[29]" + "Y[2]" + "Y[30]" + "Y[31]" + "Y[32]" + "Y[33]" 
+    + "Y[34]" + "Y[35]" + "Y[36]" + "Y[37]" + "Y[38]" + "Y[39]" + "Y[3]" + 
+    "Y[40]" + "Y[41]" + "Y[42]" + "Y[43]" + "Y[44]" + "Y[45]" + "Y[46]" + 
+    "Y[47]" + "Y[48]" + "Y[49]" + "Y[4]" + "Y[50]" + "Y[51]" + "Y[52]" + "Y[53]" 
+    + "Y[54]" + "Y[55]" + "Y[56]" + "Y[57]" + "Y[58]" + "Y[59]" + "Y[5]" + 
+    "Y[60]" + "Y[61]" + "Y[62]" + "Y[63]" + "Y[6]" + "Y[7]" + "Y[8]" + "Y[9]"';
+    "all_ports" = '"all_inputs" + "all_outputs"';
+    "_pi" = '"all_inputs"';
+    "_po" = '"all_outputs"';
+}
+ScanStructures {
+}
+Timing {
+    WaveformTable "_default_WFT_" {
+        Period '100ns';
+        Waveforms {
+            "all_inputs" {
+                0 {
+                    '0ns' D;
+                }
+            }
+            "all_inputs" {
+                1 {
+                    '0ns' U;
+                }
+            }
+            "all_inputs" {
+                Z {
+                    '0ns' Z;
+                }
+            }
+            "all_inputs" {
+                N {
+                    '0ns' N;
+                }
+            }
+            "all_outputs" {
+                X {
+                    '0ns' X;
+                    '40ns' X;
+                }
+            }
+            "all_outputs" {
+                H {
+                    '0ns' X;
+                    '40ns' H;
+                }
+            }
+            "all_outputs" {
+                T {
+                    '0ns' X;
+                    '40ns' T;
+                }
+            }
+            "all_outputs" {
+                L {
+                    '0ns' X;
+                    '40ns' L;
+                }
+            }
+        }
+    }
+    WaveformTable "_multiclock_capture_WFT_" {
+        Period '100ns';
+        Waveforms {
+            "all_inputs" {
+                0 {
+                    '0ns' D;
+                }
+            }
+            "all_inputs" {
+                1 {
+                    '0ns' U;
+                }
+            }
+            "all_inputs" {
+                Z {
+                    '0ns' Z;
+                }
+            }
+            "all_inputs" {
+                N {
+                    '0ns' N;
+                }
+            }
+            "all_outputs" {
+                X {
+                    '0ns' X;
+                    '40ns' X;
+                }
+            }
+            "all_outputs" {
+                H {
+                    '0ns' X;
+                    '40ns' H;
+                }
+            }
+            "all_outputs" {
+                T {
+                    '0ns' X;
+                    '40ns' T;
+                }
+            }
+            "all_outputs" {
+                L {
+                    '0ns' X;
+                    '40ns' L;
+                }
+            }
+        }
+    }
+    WaveformTable "_allclock_capture_WFT_" {
+        Period '100ns';
+        Waveforms {
+            "all_inputs" {
+                0 {
+                    '0ns' D;
+                }
+            }
+            "all_inputs" {
+                1 {
+                    '0ns' U;
+                }
+            }
+            "all_inputs" {
+                Z {
+                    '0ns' Z;
+                }
+            }
+            "all_inputs" {
+                N {
+                    '0ns' N;
+                }
+            }
+            "all_outputs" {
+                X {
+                    '0ns' X;
+                    '40ns' X;
+                }
+            }
+            "all_outputs" {
+                H {
+                    '0ns' X;
+                    '40ns' H;
+                }
+            }
+            "all_outputs" {
+                T {
+                    '0ns' X;
+                    '40ns' T;
+                }
+            }
+            "all_outputs" {
+                L {
+                    '0ns' X;
+                    '40ns' L;
+                }
+            }
+        }
+    }
+    WaveformTable "_allclock_launch_WFT_" {
+        Period '100ns';
+        Waveforms {
+            "all_inputs" {
+                0 {
+                    '0ns' D;
+                }
+            }
+            "all_inputs" {
+                1 {
+                    '0ns' U;
+                }
+            }
+            "all_inputs" {
+                Z {
+                    '0ns' Z;
+                }
+            }
+            "all_inputs" {
+                N {
+                    '0ns' N;
+                }
+            }
+            "all_outputs" {
+                X {
+                    '0ns' X;
+                    '40ns' X;
+                }
+            }
+            "all_outputs" {
+                H {
+                    '0ns' X;
+                    '40ns' H;
+                }
+            }
+            "all_outputs" {
+                T {
+                    '0ns' X;
+                    '40ns' T;
+                }
+            }
+            "all_outputs" {
+                L {
+                    '0ns' X;
+                    '40ns' L;
+                }
+            }
+        }
+    }
+    WaveformTable "_allclock_launch_capture_WFT_" {
+        Period '100ns';
+        Waveforms {
+            "all_inputs" {
+                0 {
+                    '0ns' D;
+                }
+            }
+            "all_inputs" {
+                1 {
+                    '0ns' U;
+                }
+            }
+            "all_inputs" {
+                Z {
+                    '0ns' Z;
+                }
+            }
+            "all_inputs" {
+                N {
+                    '0ns' N;
+                }
+            }
+            "all_outputs" {
+                X {
+                    '0ns' X;
+                    '40ns' X;
+                }
+            }
+            "all_outputs" {
+                H {
+                    '0ns' X;
+                    '40ns' H;
+                }
+            }
+            "all_outputs" {
+                T {
+                    '0ns' X;
+                    '40ns' T;
+                }
+            }
+            "all_outputs" {
+                L {
+                    '0ns' X;
+                    '40ns' L;
+                }
+            }
+        }
+    }
+}
+Procedures {
+    "multiclock_capture" {
+        W "_multiclock_capture_WFT_";
+        C {
+            "SCANOUTPORT" = X;
+            "Y[0]" = X;
+            "Y[10]" = X;
+            "Y[11]" = X;
+            "Y[12]" = X;
+            "Y[13]" = X;
+            "Y[14]" = X;
+            "Y[15]" = X;
+            "Y[16]" = X;
+            "Y[17]" = X;
+            "Y[18]" = X;
+            "Y[19]" = X;
+            "Y[1]" = X;
+            "Y[20]" = X;
+            "Y[21]" = X;
+            "Y[22]" = X;
+            "Y[23]" = X;
+            "Y[24]" = X;
+            "Y[25]" = X;
+            "Y[26]" = X;
+            "Y[27]" = X;
+            "Y[28]" = X;
+            "Y[29]" = X;
+            "Y[2]" = X;
+            "Y[30]" = X;
+            "Y[31]" = X;
+            "Y[32]" = X;
+            "Y[33]" = X;
+            "Y[34]" = X;
+            "Y[35]" = X;
+            "Y[36]" = X;
+            "Y[37]" = X;
+            "Y[38]" = X;
+            "Y[39]" = X;
+            "Y[3]" = X;
+            "Y[40]" = X;
+            "Y[41]" = X;
+            "Y[42]" = X;
+            "Y[43]" = X;
+            "Y[44]" = X;
+            "Y[45]" = X;
+            "Y[46]" = X;
+            "Y[47]" = X;
+            "Y[48]" = X;
+            "Y[49]" = X;
+            "Y[4]" = X;
+            "Y[50]" = X;
+            "Y[51]" = X;
+            "Y[52]" = X;
+            "Y[53]" = X;
+            "Y[54]" = X;
+            "Y[55]" = X;
+            "Y[56]" = X;
+            "Y[57]" = X;
+            "Y[58]" = X;
+            "Y[59]" = X;
+            "Y[5]" = X;
+            "Y[60]" = X;
+            "Y[61]" = X;
+            "Y[62]" = X;
+            "Y[63]" = X;
+            "Y[6]" = X;
+            "Y[7]" = X;
+            "Y[8]" = X;
+            "Y[9]" = X;
+        }
+        V {
+            "_po" = \r65 #;
+            "_pi" = \r9 #;
+        }
+    }
+    "allclock_capture" {
+        W "_allclock_capture_WFT_";
+        C {
+            "SCANOUTPORT" = X;
+            "Y[0]" = X;
+            "Y[10]" = X;
+            "Y[11]" = X;
+            "Y[12]" = X;
+            "Y[13]" = X;
+            "Y[14]" = X;
+            "Y[15]" = X;
+            "Y[16]" = X;
+            "Y[17]" = X;
+            "Y[18]" = X;
+            "Y[19]" = X;
+            "Y[1]" = X;
+            "Y[20]" = X;
+            "Y[21]" = X;
+            "Y[22]" = X;
+            "Y[23]" = X;
+            "Y[24]" = X;
+            "Y[25]" = X;
+            "Y[26]" = X;
+            "Y[27]" = X;
+            "Y[28]" = X;
+            "Y[29]" = X;
+            "Y[2]" = X;
+            "Y[30]" = X;
+            "Y[31]" = X;
+            "Y[32]" = X;
+            "Y[33]" = X;
+            "Y[34]" = X;
+            "Y[35]" = X;
+            "Y[36]" = X;
+            "Y[37]" = X;
+            "Y[38]" = X;
+            "Y[39]" = X;
+            "Y[3]" = X;
+            "Y[40]" = X;
+            "Y[41]" = X;
+            "Y[42]" = X;
+            "Y[43]" = X;
+            "Y[44]" = X;
+            "Y[45]" = X;
+            "Y[46]" = X;
+            "Y[47]" = X;
+            "Y[48]" = X;
+            "Y[49]" = X;
+            "Y[4]" = X;
+            "Y[50]" = X;
+            "Y[51]" = X;
+            "Y[52]" = X;
+            "Y[53]" = X;
+            "Y[54]" = X;
+            "Y[55]" = X;
+            "Y[56]" = X;
+            "Y[57]" = X;
+            "Y[58]" = X;
+            "Y[59]" = X;
+            "Y[5]" = X;
+            "Y[60]" = X;
+            "Y[61]" = X;
+            "Y[62]" = X;
+            "Y[63]" = X;
+            "Y[6]" = X;
+            "Y[7]" = X;
+            "Y[8]" = X;
+            "Y[9]" = X;
+        }
+        V {
+            "_po" = \r65 #;
+            "_pi" = \r9 #;
+        }
+    }
+    "allclock_launch" {
+        W "_allclock_launch_WFT_";
+        C {
+            "SCANOUTPORT" = X;
+            "Y[0]" = X;
+            "Y[10]" = X;
+            "Y[11]" = X;
+            "Y[12]" = X;
+            "Y[13]" = X;
+            "Y[14]" = X;
+            "Y[15]" = X;
+            "Y[16]" = X;
+            "Y[17]" = X;
+            "Y[18]" = X;
+            "Y[19]" = X;
+            "Y[1]" = X;
+            "Y[20]" = X;
+            "Y[21]" = X;
+            "Y[22]" = X;
+            "Y[23]" = X;
+            "Y[24]" = X;
+            "Y[25]" = X;
+            "Y[26]" = X;
+            "Y[27]" = X;
+            "Y[28]" = X;
+            "Y[29]" = X;
+            "Y[2]" = X;
+            "Y[30]" = X;
+            "Y[31]" = X;
+            "Y[32]" = X;
+            "Y[33]" = X;
+            "Y[34]" = X;
+            "Y[35]" = X;
+            "Y[36]" = X;
+            "Y[37]" = X;
+            "Y[38]" = X;
+            "Y[39]" = X;
+            "Y[3]" = X;
+            "Y[40]" = X;
+            "Y[41]" = X;
+            "Y[42]" = X;
+            "Y[43]" = X;
+            "Y[44]" = X;
+            "Y[45]" = X;
+            "Y[46]" = X;
+            "Y[47]" = X;
+            "Y[48]" = X;
+            "Y[49]" = X;
+            "Y[4]" = X;
+            "Y[50]" = X;
+            "Y[51]" = X;
+            "Y[52]" = X;
+            "Y[53]" = X;
+            "Y[54]" = X;
+            "Y[55]" = X;
+            "Y[56]" = X;
+            "Y[57]" = X;
+            "Y[58]" = X;
+            "Y[59]" = X;
+            "Y[5]" = X;
+            "Y[60]" = X;
+            "Y[61]" = X;
+            "Y[62]" = X;
+            "Y[63]" = X;
+            "Y[6]" = X;
+            "Y[7]" = X;
+            "Y[8]" = X;
+            "Y[9]" = X;
+        }
+        V {
+            "_po" = \r65 #;
+            "_pi" = \r9 #;
+        }
+    }
+    "allclock_launch_capture" {
+        W "_allclock_launch_capture_WFT_";
+        C {
+            "SCANOUTPORT" = X;
+            "Y[0]" = X;
+            "Y[10]" = X;
+            "Y[11]" = X;
+            "Y[12]" = X;
+            "Y[13]" = X;
+            "Y[14]" = X;
+            "Y[15]" = X;
+            "Y[16]" = X;
+            "Y[17]" = X;
+            "Y[18]" = X;
+            "Y[19]" = X;
+            "Y[1]" = X;
+            "Y[20]" = X;
+            "Y[21]" = X;
+            "Y[22]" = X;
+            "Y[23]" = X;
+            "Y[24]" = X;
+            "Y[25]" = X;
+            "Y[26]" = X;
+            "Y[27]" = X;
+            "Y[28]" = X;
+            "Y[29]" = X;
+            "Y[2]" = X;
+            "Y[30]" = X;
+            "Y[31]" = X;
+            "Y[32]" = X;
+            "Y[33]" = X;
+            "Y[34]" = X;
+            "Y[35]" = X;
+            "Y[36]" = X;
+            "Y[37]" = X;
+            "Y[38]" = X;
+            "Y[39]" = X;
+            "Y[3]" = X;
+            "Y[40]" = X;
+            "Y[41]" = X;
+            "Y[42]" = X;
+            "Y[43]" = X;
+            "Y[44]" = X;
+            "Y[45]" = X;
+            "Y[46]" = X;
+            "Y[47]" = X;
+            "Y[48]" = X;
+            "Y[49]" = X;
+            "Y[4]" = X;
+            "Y[50]" = X;
+            "Y[51]" = X;
+            "Y[52]" = X;
+            "Y[53]" = X;
+            "Y[54]" = X;
+            "Y[55]" = X;
+            "Y[56]" = X;
+            "Y[57]" = X;
+            "Y[58]" = X;
+            "Y[59]" = X;
+            "Y[5]" = X;
+            "Y[60]" = X;
+            "Y[61]" = X;
+            "Y[62]" = X;
+            "Y[63]" = X;
+            "Y[6]" = X;
+            "Y[7]" = X;
+            "Y[8]" = X;
+            "Y[9]" = X;
+        }
+        V {
+            "_po" = \r65 #;
+            "_pi" = \r9 #;
+        }
+    }
+}
+MacroDefs {
+    "test_setup" {
+        W "_default_WFT_";
+        V {
+        }
+        V {
+        }
+    }
+}
+

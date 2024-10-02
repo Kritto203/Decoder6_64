@@ -1,0 +1,198 @@
+                             RESULTS: NOT CLEAN
+
+         #   #   ###   #####      ####  #      #####   ###   #   #
+         ##  #  #   #    #       #      #      #      #   #  ##  #
+         # # #  #   #    #       #      #      ####   #####  # # #
+         #  ##  #   #    #       #      #      #      #   #  #  ##
+         #   #   ###     #        ####  #####  #####  #   #  #   #
+
+===========================================================================
+
+
+---------------------------------------------------------------------------
+ICV Execution
+---------------------------------------------------------------------------
+
+
+                                 IC Validator 
+
+         Version V-2023.12-SP3-1 for linux64 - May 30, 2024 cl#10276649
+
+                    Copyright (c) 1996 - 2024 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Called as: icv -icc2 -f NDM -i decoder6_64 -p /home/sv1/K21_CLC/thai/decoder6_64/decoder6_64_icc2/work -c decoder6_64 -clf /home/sv1/K21_CLC/thai/decoder6_64/decoder6_64_icc2/work/signoff_check_drc_run/slnFile.txt -icc_density_blockage -icc2_error_categories -I /home/sv1/K21_CLC/thai/decoder6_64/decoder6_64_icc2/work/signoff_check_drc_run -icc2_error_browser INST -icc2_error_cell signoff_check_drc.err -rc /home/sv1/K21_CLC/thai/decoder6_64/decoder6_64_icc2/work/signoff_check_drc_run/signoff_check_drc.rc -I /home/sv1/K21_CLC/thai/decoder6_64/decoder6_64_icc2/work/signoff_check_drc_run /home/sv1/K21_CLC/thai/decoder6_64/decoder6_64_icc2/ref/tech/icv_drc/saed14nm_1p9m_drc_rules.rs 
+
+Command Line Summary:
+icv
+-c decoder6_64
+-f NDM
+-i decoder6_64
+-icc2
+-icc2_error_browser INST
+-icc2_error_categories
+-icc2_error_cell signoff_check_drc.err
+-icc_density_blockage
+-p /home/sv1/K21_CLC/thai/decoder6_64/decoder6_64_icc2/work
+-rc /home/sv1/K21_CLC/thai/decoder6_64/decoder6_64_icc2/work/signoff_check_drc_run/signoff_check_drc.rc
+-sln "19 21 23 25 27 29 31 33 35 47 20 22 24 26 28 30 32 34 48 "
+-I /home/sv1/K21_CLC/thai/decoder6_64/decoder6_64_icc2/work/signoff_check_drc_run
+-I /home/sv1/K21_CLC/thai/decoder6_64/decoder6_64_icc2/work/signoff_check_drc_run
+/home/sv1/K21_CLC/thai/decoder6_64/decoder6_64_icc2/ref/tech/icv_drc/saed14nm_1p9m_drc_rules.rs
+
+CLF Files:
+  /home/sv1/K21_CLC/thai/decoder6_64/decoder6_64_icc2/work/signoff_check_drc_run/slnFile.txt
+  
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Input file name:        decoder6_64
+Top cell name:          decoder6_64
+Layout format:          NDM
+Runset file:            /home/sv1/K21_CLC/thai/decoder6_64/decoder6_64_icc2/ref/tech/icv_drc/saed14nm_1p9m_drc_rules.rs
+Working directory:      /home/sv1/K21_CLC/thai/decoder6_64/decoder6_64_icc2/work/signoff_check_drc_run
+Run details directory:  /home/sv1/K21_CLC/thai/decoder6_64/decoder6_64_icc2/work/signoff_check_drc_run/run_details
+Layout error file:      decoder6_64.LAYOUT_ERRORS
+User name:              sv1
+Time started:           2024/08/16 03:46:38PM
+Time ended:             2024/08/16 03:46:57PM
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+---------------------------------------------------------------------------
+Results Summary
+---------------------------------------------------------------------------
+
+Rule and DRC Error Summary
+
+217 total rules were run.
+154 rules NOT EXECUTED.
+22 rules have violations.
+There are 1642 total violations.
+Refer to decoder6_64.LAYOUT_ERRORS
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Rule                                  Violations Found
+M1.S.1.2 Minimum notch must be 0.055  v = 18
+M1.S.1                                v = 9
+M2.A.2                                v = 2
+M2.S.1.2 Minimum notch must be 0.055  v = 396
+M2.S.1                                v = 64
+M2.S.2                                v = 6
+M2.S.3                                v = 6
+M3.S.1.2 Minimum notch must be 0.055  v = 271
+M3.S.1                                v = 34
+M3.S.2                                v = 8
+M3.S.3                                v = 8
+M4.S.1.2 Minimum notch must be 0.04   v = 221
+M4.S.2                                v = 61
+M4.W.1                                v = 364
+M5.S.1.2 Minimum notch must be 0.04   v = 42
+M5.S.2                                v = 3
+M5.W.1                                v = 45
+VIA1.S.1                              v = 1
+VIA1.S.2                              v = 77
+VIA1.W.1 VIA1.W.2 VIA1.W.3 VIA1.W.4   v = 1
+VIA2.S.1                              v = 2
+VIA3.S.1                              v = 3
+
+
+---------------------------------------------------------------------------
+Assign Layer Statistics
+---------------------------------------------------------------------------
+
+Utilized Assign Layers = 26
+ Empty Utilized Assign Layers = 17
+ Non-Empty Utilized Assign Layers = 9
+Pruned Assign Layers = 79
+
+
+---------------------------------------------------------------------------
+Run Configuration
+---------------------------------------------------------------------------
+
+run_options()
+ verbose_results_file = { ERRORS }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+hierarchy_options()
+ delete = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+error_options()
+ error_limit_per_check = 1000
+ match_errors = { }
+ match_errors_processing_mode = HIERARCHICAL
+ match_errors_tolerance = 0.0000
+ violation_options = { }
+ report_empty_violations = false
+ clean_classifications = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Production Environment Variables
+
+HOME = "/home/sv1"
+ICV_HOME_DIR = "/home/cad/synopsys/icvalidator/V-2023.12-SP3-1"
+ICV_REVERT = "NDM_DESIGN_ATTACHED_ERROR_DATA"
+LM_LICENSE_FILE = ":27020@localhost"
+PATH = "/home/cad/synopsys/icvalidator/V-2023.12-SP3-1/bin/LINUX64_L31el:/home/cad/synopsys/icvalidator/V-2023.12-SP3-1/contrib/bin/LINUX64_L31el:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/sv1/.local/bin:/home/sv1/bin:/home/cad/synopsys/scl/2023.03/linux64/bin/:/home/cad/synopsys/coretools/U-2022.12/bin:/home/cad/synopsys/fm/U-2022.12-SP3/bin:/home/cad/synopsys/icc/U-2022.12-SP3/bin:/home/cad/synopsys/icc2/U-2022.12-SP3/bin:/home/cad/synopsys/lc/U-2022.12-SP3/bin:/home/cad/synopsys/spyglass/U-2023.03/SPYGLASS_HOME/bin:/home/cad/synopsys/syn/U-2022.12-SP3/bin:/home/cad/synopsys/vc_static/U-2023.03/bin:/home/cad/synopsys/vcs-mx/O-2018.09-SP2/bin:/home/cad/synopsys/wv/U-2023.03/bin:/home/cad/synopsys/verdi/V-2023.12-1/bin:/home/cad/synopsys/icvalidator/V-2023.12-SP3-1/bin:/home/cad/synopsys/nt/U-2022.12-SP5-3/bin:/home/cad/synopsys/testmax/T-2022.03-SP4-1/bin:/home/cad/synopsys/starrc/U-2022.12-SP5-2/bin:/home/cad/synopsys/pt/prime/U-2022.12-SP5-3/bin"
+SNPSLMD_LICENSE_FILE = "27020@localhost"
+USER = "sv1"
+
+7 production environment variables set.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Debug Environment Variables
+
+_ICV_IGRAPH_DP = "FALSE"
+_ICV_IGRAPH_FALLBACK = "TRUE"
+icv_WRITE_TECH_FILE_WITH_UPDATES = "/home/sv1/K21_CLC/thai/decoder6_64/decoder6_64_icc2/work/signoff_check_drc_run/tech.tf"
+
+3 debug environment variables set.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Distributed Processing
+ Distributed Cores = 2
+
+ capacitor (2/72)
+   Commands: 2 in parallel, maximum
+   Model: Intel(R) Xeon(R) CPU E5-2696 v3 @ 2.30GHz
+   CPU:   72 cpu 3800 MHz
+   Cores: 36 HT
+   RAM:   125.652 GB
+   Swap:  3.999 GB
+
+
+---------------------------------------------------------------------------
+Performance Statistics
+---------------------------------------------------------------------------
+
+IC Validator Run Time = 0:00:19
+Peak Single Command Memory = 1.070 GB
+Peak Disk Usage = 0.008 GB
+Network Disk Usage Peak=0.008 GB (no group)
+Group File Disk Usage Peak=0.000 GB
+
+Distributed Host Memory Usage
+ capacitor (2/72)  ....  Average=0.573 GB, Peak=0.573 GB / 125.652 GB
+
+Overall Distributed Utilization: not available
+IC Validator is done.

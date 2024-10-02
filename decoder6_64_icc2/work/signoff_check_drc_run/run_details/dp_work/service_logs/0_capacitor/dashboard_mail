@@ -1,0 +1,5 @@
+[32754:2024-08-16 15:46:38.393] Starting service 'dashboard_mail' (Node ID=0, Host Name=capacitor)
+[32754:2024-08-16 15:46:38.395] [ev_dash_mail] The run detail dir path: /home/sv1/K21_CLC/thai/decoder6_64/decoder6_64_icc2/work/signoff_check_drc_run/run_details.
+[32754:2024-08-16 15:46:57.839] [ev_dash_mail] Dashboard Mail service is about to stop.
+[32754:2024-08-16 15:46:57.839] [ev_dash_mail] The email config file path: /home/sv1/K21_CLC/thai/decoder6_64/decoder6_64_icc2/work/signoff_check_drc_run/run_details/dashboard.email/icv_dashboard.conf.
+[32754:2024-08-16 15:46:57.839] [ev_dash_mail] The email configuration of dashboard is NO_EMAIL.

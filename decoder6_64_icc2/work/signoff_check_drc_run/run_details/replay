@@ -1,0 +1,2184 @@
+#
+# runset is /home/sv1/K21_CLC/thai/decoder6_64/decoder6_64_icc2/ref/tech/icv_drc/saed14nm_1p9m_drc_rules.rs
+#
+runset_csum = 40987
+num_hosts = 2
+events {
+S 253.0.0 994 1
+# capacitor(1):       517  1 _read_schematic_cell_names
+F 253.0.0 994 1
+S 248.0.0 977 0
+# capacitor(0):       807  1 _prescan_library
+F 248.0.0 977 0
+S 250.0.0 985 0
+# capacitor(0):       812  1 _scan_hierarchy
+F 0 0 1
+F 250.0.0 985 0
+S 252.0.0 989 1
+# capacitor(1):      7055  1 _read_library_segment
+F 252.0.0 989 1
+S 255.0.0 999 0
+# capacitor(0):      5163  1 _create_hierarchy_tree
+F 255.0.0 999 0
+S 320.0.0 1217 0
+# capacitor(0):      1669  1 _optimize_hierarchy_tree
+F 320.0.0 1217 0
+S 321.0.0 1227 0
+# capacitor(0):       959  1 _hierarchy_cleanup
+S 319.0.0 1215 1
+# capacitor(1):       520  1 _generate_sibling_refref
+F 319.0.0 1215 1
+S 427.0.0 1555 1
+# capacitor(1):      2670  1 _empty_layer
+F 427.0.0 1555 1
+S 426.0.0 1553 1
+# capacitor(1):      2668  1 _empty_layer
+F 426.0.0 1553 1
+S 424.0.0 1550 1
+# capacitor(1):      2664  1 _empty_layer
+F 424.0.0 1550 1
+S 423.0.0 1548 1
+# capacitor(1):      2662  1 _empty_layer
+F 423.0.0 1548 1
+S 421.0.0 1545 1
+# capacitor(1):      2658  1 _empty_layer
+F 421.0.0 1545 1
+S 420.0.0 1543 1
+# capacitor(1):      2656  1 _empty_layer
+F 420.0.0 1543 1
+S 418.0.0 1540 1
+# capacitor(1):      2664  1 _empty_layer
+F 418.0.0 1540 1
+S 417.0.0 1538 1
+# capacitor(1):      2662  1 _empty_layer
+F 417.0.0 1538 1
+S 415.0.0 1535 1
+# capacitor(1):      2658  1 _empty_layer
+F 415.0.0 1535 1
+S 414.0.0 1533 1
+# capacitor(1):      2656  1 _empty_layer
+F 414.0.0 1533 1
+S 412.0.0 1530 1
+# capacitor(1):      2664  1 _empty_layer
+F 412.0.0 1530 1
+S 411.0.0 1528 1
+# capacitor(1):      2662  1 _empty_layer
+F 411.0.0 1528 1
+S 409.0.0 1525 1
+# capacitor(1):      2658  1 _empty_layer
+F 409.0.0 1525 1
+S 408.0.0 1523 1
+# capacitor(1):      2656  1 _empty_layer
+F 408.0.0 1523 1
+S 406.0.0 1520 1
+# capacitor(1):      2664  1 _empty_layer
+F 406.0.0 1520 1
+S 405.0.0 1518 1
+# capacitor(1):      2662  1 _empty_layer
+F 405.0.0 1518 1
+S 403.0.0 1515 1
+# capacitor(1):      2658  1 _empty_layer
+F 403.0.0 1515 1
+S 402.0.0 1513 1
+# capacitor(1):      2656  1 _empty_layer
+F 402.0.0 1513 1
+S 400.0.0 1510 1
+# capacitor(1):      2664  1 _empty_layer
+F 400.0.0 1510 1
+S 399.0.0 1508 1
+# capacitor(1):      2662  1 _empty_layer
+F 399.0.0 1508 1
+S 373.0.0 1401 1
+# capacitor(1):      2664  1 _empty_layer
+F 373.0.0 1401 1
+S 372.0.0 1399 1
+# capacitor(1):      2662  1 _empty_layer
+F 372.0.0 1399 1
+S 358.0.0 1344 1
+# capacitor(1):      2664  1 _empty_layer
+F 358.0.0 1344 1
+S 357.0.0 1342 1
+# capacitor(1):      2662  1 _empty_layer
+F 357.0.0 1342 1
+S 343.0.0 1287 1
+# capacitor(1):      2664  1 _empty_layer
+F 343.0.0 1287 1
+S 342.0.0 1285 1
+# capacitor(1):      2662  1 _empty_layer
+F 342.0.0 1285 1
+S 334.0.0 1251 1
+# capacitor(1):      2664  1 _empty_layer
+F 334.0.0 1251 1
+S 333.0.0 1249 1
+# capacitor(1):      2662  1 _empty_layer
+F 333.0.0 1249 1
+S 331.0.0 1246 1
+# capacitor(1):      2661  1 _empty_layer
+F 331.0.0 1246 1
+S 330.0.0 1244 1
+# capacitor(1):      2659  1 _empty_layer
+F 330.0.0 1244 1
+S 328.0.0 1241 1
+# capacitor(1):      2664  1 _empty_layer
+F 328.0.0 1241 1
+S 327.0.0 1239 1
+# capacitor(1):      2662  1 _empty_layer
+F 327.0.0 1239 1
+S 325.0.0 1236 1
+# capacitor(1):      2661  1 _empty_layer
+F 325.0.0 1236 1
+S 324.0.0 1234 1
+# capacitor(1):      2659  1 _empty_layer
+F 324.0.0 1234 1
+S 318.0.0 1213 1
+# capacitor(1):       778  1 _write_create_layer_shared_hierarchy
+F 321.0.0 1227 0
+F 318.0.0 1213 1
+S 393.0.0 1482 1
+# capacitor(1):      4410  1 _create_layer_dp
+F 393.0.0 1482 1
+S 387.0.0 1456 1
+# capacitor(1):      4426  1 _create_layer_dp
+S 381.0.0 1430 0
+# capacitor(0):      4410  1 _create_layer_dp
+F 387.0.0 1456 1
+S 375.0.0 1404 1
+# capacitor(1):      4426  1 _create_layer_dp
+F 375.0.0 1404 1
+S 366.0.0 1373 1
+# capacitor(1):      4410  1 _create_layer_dp
+F 381.0.0 1430 0
+S 360.0.0 1347 0
+# capacitor(0):      4426  1 _create_layer_dp
+F 360.0.0 1347 0
+S 351.0.0 1316 0
+# capacitor(0):      4410  1 _create_layer_dp
+F 366.0.0 1373 1
+S 345.0.0 1290 1
+# capacitor(1):      4426  1 _create_layer_dp
+F 351.0.0 1316 0
+S 336.0.0 1254 0
+# capacitor(0):      4410  1 _create_layer_dp
+F 345.0.0 1290 1
+S 322.0.0 1230 1
+# capacitor(1):       979  1 _update_and_pushdown_refref
+F 322.0.0 1230 1
+S 349.0.0 1310 1
+# capacitor(1):      4223  1 _optimize_unmerged_layer_dp
+F 336.0.0 1254 0
+S 340.0.0 1279 0
+# capacitor(0):      4211  1 _optimize_unmerged_layer_dp
+F 349.0.0 1310 1
+S 339.0.0 1274 1
+# capacitor(1):      4207  1 _optimize_unmerged_layer_dp
+F 340.0.0 1279 0
+S 337.0.0 1264 0
+# capacitor(0):      4112  1 _optimize_layer_dp
+F 339.0.0 1274 1
+S 1046.0.0 3304 1
+# capacitor(1):      1614  1 _tag_violation
+F 337.0.0 1264 0
+S 338.0.0 1269 0
+# capacitor(0):      2826  1 _compress_isolated
+F 1046.0.0 3304 1
+S 1044.0.0 3301 1
+# capacitor(1):      1611  1 _tag_violation
+F 1044.0.0 3301 1
+S 1042.0.0 3298 1
+# capacitor(1):      2695  1 _tag_violation
+F 1042.0.0 3298 1
+S 545.0.0 1898 1
+# capacitor(1):      2895  1 _tag_violation
+F 545.0.0 1898 1
+S 543.0.0 1895 1
+# capacitor(1):      2889  1 _tag_violation
+F 543.0.0 1895 1
+S 541.0.0 1892 1
+# capacitor(1):      2894  1 _tag_violation
+F 338.0.0 1269 0
+S 1081.0.0 3402 0
+# capacitor(0):      1163  1 _copy
+F 541.0.0 1892 1
+S 1075.0.0 3386 1
+# capacitor(1):      1165  1 _copy
+F 1081.0.0 3402 0
+S 491.0.0 1741 0
+# capacitor(0):      3040  1 _explode_rotation
+F 1075.0.0 3386 1
+S 444.0.0 1590 1
+# capacitor(1):       389  1 _create_q
+F 491.0.0 1741 0
+S 492.0.0 1744 0
+# capacitor(0):      2995  1 _compress_isolated
+F 492.0.0 1744 0
+S 493.0.0 1749 0
+# capacitor(0):       406  1 _create_q
+F 444.0.0 1590 1
+S 539.0.0 1889 1
+# capacitor(1):      2895  1 _tag_violation
+F 493.0.0 1749 0
+S 501.0.0 1772 0
+# capacitor(0):      5570  1 _internal_q
+F 539.0.0 1889 1
+S 494.0.0 1751 1
+# capacitor(1):      5572  1 _internal_q
+F 501.0.0 1772 0
+S 510.0.0 1799 0
+# capacitor(0):      1144  1 _merge_dirty_layer
+F 510.0.0 1799 0
+S 512.0.0 1803 0
+# capacitor(0):       434  1 _create_q
+F 494.0.0 1751 1
+S 506.0.0 1789 1
+# capacitor(1):      1146  1 _merge_dirty_layer
+F 506.0.0 1789 1
+S 508.0.0 1793 1
+# capacitor(1):       434  1 _create_q
+F 512.0.0 1803 0
+S 495.0.0 1758 0
+# capacitor(0):      1145  1 _merge_dirty_layer
+F 508.0.0 1793 1
+S 511.0.0 1801 1
+# capacitor(1):       376  1 _create_q
+F 495.0.0 1758 0
+S 497.0.0 1762 0
+# capacitor(0):       434  1 _create_q
+F 497.0.0 1762 0
+S 496.0.0 1760 0
+# capacitor(0):       440  1 _create_q
+F 511.0.0 1801 1
+S 513.0.0 1805 1
+# capacitor(1):      1969  1 _boolean_not_q
+F 496.0.0 1760 0
+S 498.0.0 1764 0
+# capacitor(0):      1970  1 _boolean_not_q
+F 513.0.0 1805 1
+S 526.0.0 1851 1
+# capacitor(1):      2909  1 _explode_rotation
+F 526.0.0 1851 1
+S 527.0.0 1854 1
+# capacitor(1):       391  1 _create_q
+F 498.0.0 1764 0
+S 514.0.0 1809 0
+# capacitor(0):      2910  1 _explode_rotation
+F 514.0.0 1809 0
+S 515.0.0 1812 0
+# capacitor(0):       391  1 _create_q
+F 527.0.0 1854 1
+S 528.0.0 1856 1
+# capacitor(1):      6964  1 _external_q
+F 515.0.0 1812 0
+S 516.0.0 1814 0
+# capacitor(0):      6961  1 _external_q
+F 528.0.0 1856 1
+S 529.0.0 1864 1
+# capacitor(1):      2450  1 _tag_violation
+F 529.0.0 1864 1
+S 507.0.0 1791 1
+# capacitor(1):       320  1 _create_q
+F 507.0.0 1791 1
+S 509.0.0 1795 1
+# capacitor(1):      1971  1 _boolean_not_q
+F 516.0.0 1814 0
+S 517.0.0 1822 0
+# capacitor(0):      2451  1 _tag_violation
+F 517.0.0 1822 0
+S 502.0.0 1779 0
+# capacitor(0):      1143  1 _merge_dirty_layer
+F 502.0.0 1779 0
+S 504.0.0 1783 0
+# capacitor(0):       434  1 _create_q
+F 509.0.0 1795 1
+S 522.0.0 1837 1
+# capacitor(1):      2911  1 _explode_rotation
+F 504.0.0 1783 0
+S 503.0.0 1781 0
+# capacitor(0):       440  1 _create_q
+F 522.0.0 1837 1
+S 523.0.0 1840 1
+# capacitor(1):       391  1 _create_q
+F 503.0.0 1781 0
+S 505.0.0 1785 0
+# capacitor(0):      1968  1 _boolean_not_q
+F 523.0.0 1840 1
+S 524.0.0 1842 1
+# capacitor(1):      6962  1 _external_q
+F 505.0.0 1785 0
+S 518.0.0 1823 0
+# capacitor(0):      2908  1 _explode_rotation
+F 524.0.0 1842 1
+S 525.0.0 1850 1
+# capacitor(1):      2452  1 _tag_violation
+F 518.0.0 1823 0
+S 519.0.0 1826 0
+# capacitor(0):       391  1 _create_q
+F 525.0.0 1850 1
+S 465.0.0 1653 1
+# capacitor(1):      1037  1 _tag_violation
+F 465.0.0 1653 1
+S 463.0.0 1650 1
+# capacitor(1):      3085  1 _tag_violation
+F 463.0.0 1650 1
+S 348.0.0 1305 1
+# capacitor(1):      4219  1 _optimize_unmerged_layer_dp
+F 519.0.0 1826 0
+S 520.0.0 1828 0
+# capacitor(0):      6963  1 _external_q
+F 520.0.0 1828 0
+S 521.0.0 1836 0
+# capacitor(0):      2449  1 _tag_violation
+F 521.0.0 1836 0
+S 346.0.0 1295 0
+# capacitor(0):      4120  1 _optimize_layer_dp
+F 348.0.0 1305 1
+S 1074.0.0 3385 1
+# capacitor(1):      2851  1 _tag_violation
+F 1074.0.0 3385 1
+S 1072.0.0 3382 1
+# capacitor(1):      2845  1 _tag_violation
+F 1072.0.0 3382 1
+S 355.0.0 1336 1
+# capacitor(1):      4211  1 _optimize_unmerged_layer_dp
+F 346.0.0 1295 0
+S 347.0.0 1300 0
+# capacitor(0):      2834  1 _compress_isolated
+F 355.0.0 1336 1
+S 354.0.0 1331 1
+# capacitor(1):      4207  1 _optimize_unmerged_layer_dp
+F 347.0.0 1300 0
+S 352.0.0 1321 0
+# capacitor(0):      4112  1 _optimize_layer_dp
+F 354.0.0 1331 1
+S 1070.0.0 3379 1
+# capacitor(1):      2845  1 _tag_violation
+F 1070.0.0 3379 1
+S 648.0.0 2211 1
+# capacitor(1):      2895  1 _tag_violation
+F 352.0.0 1321 0
+S 353.0.0 1326 0
+# capacitor(0):      2826  1 _compress_isolated
+F 648.0.0 2211 1
+S 646.0.0 2208 1
+# capacitor(1):      2889  1 _tag_violation
+F 646.0.0 2208 1
+S 644.0.0 2205 1
+# capacitor(1):      2894  1 _tag_violation
+F 644.0.0 2205 1
+S 642.0.0 2202 1
+# capacitor(1):      2894  1 _tag_violation
+F 642.0.0 2202 1
+S 577.0.0 1997 1
+# capacitor(1):      1037  1 _tag_violation
+F 577.0.0 1997 1
+S 575.0.0 1994 1
+# capacitor(1):      3085  1 _tag_violation
+F 575.0.0 1994 1
+S 370.0.0 1393 1
+# capacitor(1):      4211  1 _optimize_unmerged_layer_dp
+F 353.0.0 1326 0
+S 1082.0.0 3405 0
+# capacitor(0):      1163  1 _copy
+F 1082.0.0 3405 0
+S 1078.0.0 3394 0
+# capacitor(0):      1165  1 _copy
+F 1078.0.0 3394 0
+S 594.0.0 2054 0
+# capacitor(0):      3040  1 _explode_rotation
+F 594.0.0 2054 0
+S 595.0.0 2057 0
+# capacitor(0):      2995  1 _compress_isolated
+F 370.0.0 1393 1
+S 548.0.0 1907 1
+# capacitor(1):       389  1 _create_q
+F 595.0.0 2057 0
+S 596.0.0 2062 0
+# capacitor(0):       406  1 _create_q
+F 596.0.0 2062 0
+S 604.0.0 2085 0
+# capacitor(0):      5570  1 _internal_q
+F 548.0.0 1907 1
+S 597.0.0 2064 1
+# capacitor(1):      5572  1 _internal_q
+F 604.0.0 2085 0
+S 613.0.0 2112 0
+# capacitor(0):      1144  1 _merge_dirty_layer
+F 597.0.0 2064 1
+S 609.0.0 2102 1
+# capacitor(1):      1146  1 _merge_dirty_layer
+F 613.0.0 2112 0
+S 615.0.0 2116 0
+# capacitor(0):       434  1 _create_q
+F 609.0.0 2102 1
+S 611.0.0 2106 1
+# capacitor(1):       434  1 _create_q
+F 615.0.0 2116 0
+S 614.0.0 2114 0
+# capacitor(0):       376  1 _create_q
+F 611.0.0 2106 1
+S 598.0.0 2071 1
+# capacitor(1):      1145  1 _merge_dirty_layer
+F 614.0.0 2114 0
+S 616.0.0 2118 0
+# capacitor(0):      1969  1 _boolean_not_q
+F 598.0.0 2071 1
+S 600.0.0 2075 1
+# capacitor(1):       434  1 _create_q
+F 616.0.0 2118 0
+F 600.0.0 2075 1
+S 629.0.0 2164 0
+# capacitor(0):      2909  1 _explode_rotation
+S 599.0.0 2073 1
+# capacitor(1):       440  1 _create_q
+F 599.0.0 2073 1
+S 601.0.0 2077 1
+# capacitor(1):      1970  1 _boolean_not_q
+F 629.0.0 2164 0
+S 630.0.0 2167 0
+# capacitor(0):       391  1 _create_q
+F 630.0.0 2167 0
+S 631.0.0 2169 0
+# capacitor(0):      6964  1 _external_q
+F 601.0.0 2077 1
+S 617.0.0 2122 1
+# capacitor(1):      2910  1 _explode_rotation
+F 631.0.0 2169 0
+S 632.0.0 2177 0
+# capacitor(0):      2450  1 _tag_violation
+F 617.0.0 2122 1
+S 618.0.0 2125 1
+# capacitor(1):       391  1 _create_q
+F 632.0.0 2177 0
+S 610.0.0 2104 0
+# capacitor(0):       320  1 _create_q
+F 618.0.0 2125 1
+S 619.0.0 2127 1
+# capacitor(1):      6961  1 _external_q
+F 610.0.0 2104 0
+S 612.0.0 2108 0
+# capacitor(0):      1971  1 _boolean_not_q
+F 619.0.0 2127 1
+S 620.0.0 2135 1
+# capacitor(1):      2451  1 _tag_violation
+F 620.0.0 2135 1
+S 605.0.0 2092 1
+# capacitor(1):      1143  1 _merge_dirty_layer
+F 612.0.0 2108 0
+S 625.0.0 2150 0
+# capacitor(0):      2909  1 _explode_rotation
+F 625.0.0 2150 0
+S 626.0.0 2153 0
+# capacitor(0):       391  1 _create_q
+F 605.0.0 2092 1
+S 607.0.0 2096 1
+# capacitor(1):       434  1 _create_q
+F 626.0.0 2153 0
+S 627.0.0 2155 0
+# capacitor(0):      6956  1 _external_q
+F 607.0.0 2096 1
+S 606.0.0 2094 1
+# capacitor(1):       440  1 _create_q
+F 606.0.0 2094 1
+S 608.0.0 2098 1
+# capacitor(1):      1968  1 _boolean_not_q
+F 627.0.0 2155 0
+S 628.0.0 2163 0
+# capacitor(0):      2450  1 _tag_violation
+F 628.0.0 2163 0
+S 430.0.0 1560 0
+# capacitor(0):       463  1 _create_q
+F 608.0.0 2098 1
+S 621.0.0 2136 1
+# capacitor(1):      2908  1 _explode_rotation
+F 621.0.0 2136 1
+S 622.0.0 2139 1
+# capacitor(1):       391  1 _create_q
+F 430.0.0 1560 0
+S 1047.0.0 3305 0
+# capacitor(0):      1862  1 _rectangles_q
+F 622.0.0 2139 1
+S 623.0.0 2141 1
+# capacitor(1):      6963  1 _external_q
+F 623.0.0 2141 1
+S 624.0.0 2149 1
+# capacitor(1):      2449  1 _tag_violation
+F 624.0.0 2149 1
+S 429.0.0 1558 1
+# capacitor(1):       459  1 _create_q
+F 1047.0.0 3305 0
+S 1051.0.0 3319 0
+# capacitor(0):      1280  1 _copy
+F 1051.0.0 3319 0
+S 1052.0.0 3322 0
+# capacitor(0):       465  1 _create_q
+F 429.0.0 1558 1
+S 1076.0.0 3389 1
+# capacitor(1):      2642  1 _boolean_not_q
+F 1052.0.0 3322 0
+S 1083.0.0 3408 0
+# capacitor(0):      3936  1 _covered_by_q
+F 1076.0.0 3389 1
+S 1077.0.0 3393 1
+# capacitor(1):      1218  1 _tag_violation
+F 1077.0.0 3393 1
+S 532.0.0 1869 1
+# capacitor(1):      2573  1 _level_one_q
+F 1083.0.0 3408 0
+S 1084.0.0 3412 0
+# capacitor(0):      2096  1 _tag_violation
+F 1084.0.0 3412 0
+S 530.0.0 1865 0
+# capacitor(0):      1858  1 _area_q
+F 532.0.0 1869 1
+S 533.0.0 1873 1
+# capacitor(1):      1620  1 _select_donut_hole
+F 530.0.0 1865 0
+S 531.0.0 1868 0
+# capacitor(0):      1185  1 _tag_violation
+F 531.0.0 1868 0
+S 467.0.0 1659 0
+# capacitor(0):      2088  1 _edge_size_q
+F 533.0.0 1873 1
+S 534.0.0 1876 1
+# capacitor(1):      1452  1 _compress_isolated
+F 534.0.0 1876 1
+S 536.0.0 1883 1
+# capacitor(1):      1888  1 _area_q
+F 536.0.0 1883 1
+S 537.0.0 1886 1
+# capacitor(1):      1198  1 _tag_violation
+F 537.0.0 1886 1
+S 466.0.0 1654 1
+# capacitor(1):      2218  1 _vertex_q
+F 466.0.0 1654 1
+S 460.0.0 1639 1
+# capacitor(1):      6856  1 _external_q
+F 467.0.0 1659 0
+S 469.0.0 1665 0
+# capacitor(0):       490  1 _create_q
+F 460.0.0 1639 1
+S 461.0.0 1647 1
+# capacitor(1):      2419  1 _tag_violation
+F 469.0.0 1665 0
+S 468.0.0 1663 0
+# capacitor(0):       490  1 _create_q
+F 461.0.0 1647 1
+S 458.0.0 1630 1
+# capacitor(1):      6755  1 _external_q
+F 458.0.0 1630 1
+S 459.0.0 1638 1
+# capacitor(1):      2324  1 _tag_violation
+F 468.0.0 1663 0
+S 470.0.0 1667 0
+# capacitor(0):      2251  1 _interacting_edge_q
+F 459.0.0 1638 1
+S 445.0.0 1592 1
+# capacitor(1):      2442  1 _find_wide_q
+F 445.0.0 1592 1
+S 451.0.0 1610 1
+# capacitor(1):      1838  1 _wide_cleanup_overlap_q
+F 451.0.0 1610 1
+S 476.0.0 1688 1
+# capacitor(1):      1260  1 _copy
+F 476.0.0 1688 1
+S 482.0.0 1708 1
+# capacitor(1):       467  1 _create_q
+F 482.0.0 1708 1
+S 483.0.0 1710 1
+# capacitor(1):      8168  1 _external_q
+F 470.0.0 1667 0
+S 471.0.0 1673 0
+# capacitor(0):      1844  1 _compress_isolated
+F 471.0.0 1673 0
+S 472.0.0 1678 0
+# capacitor(0):       387  1 _create_q
+F 483.0.0 1710 1
+S 484.0.0 1718 1
+# capacitor(1):      2888  1 _tag_violation
+F 484.0.0 1718 1
+S 449.0.0 1604 1
+# capacitor(1):      1838  1 _wide_cleanup_overlap_q
+F 472.0.0 1678 0
+S 473.0.0 1680 0
+# capacitor(0):      2147  1 _length_edge_q
+F 449.0.0 1604 1
+S 475.0.0 1685 1
+# capacitor(1):      1263  1 _copy
+F 473.0.0 1680 0
+S 474.0.0 1684 0
+# capacitor(0):      1309  1 _tag_violation
+F 475.0.0 1685 1
+S 479.0.0 1697 1
+# capacitor(1):       469  1 _create_q
+F 479.0.0 1697 1
+S 480.0.0 1699 1
+# capacitor(1):      8169  1 _external_q
+F 474.0.0 1684 0
+S 447.0.0 1598 0
+# capacitor(0):      1838  1 _wide_cleanup_overlap_q
+F 480.0.0 1699 1
+S 481.0.0 1707 1
+# capacitor(1):      2888  1 _tag_violation
+F 481.0.0 1707 1
+S 442.0.0 1582 1
+# capacitor(1):      6112  1 _internal_q
+F 447.0.0 1598 0
+S 456.0.0 1626 0
+# capacitor(0):      1772  1 _copy
+F 456.0.0 1626 0
+S 457.0.0 1629 0
+# capacitor(0):      1088  1 _tag_violation
+F 457.0.0 1629 0
+S 455.0.0 1622 0
+# capacitor(0):      1597  1 _wide_cleanup_overlap_q
+F 455.0.0 1622 0
+S 478.0.0 1694 0
+# capacitor(0):      1257  1 _copy
+F 442.0.0 1582 1
+S 443.0.0 1589 1
+# capacitor(1):      2758  1 _tag_violation
+F 478.0.0 1694 0
+S 486.0.0 1721 0
+# capacitor(0):      8136  1 _external_q
+F 443.0.0 1589 1
+S 453.0.0 1616 1
+# capacitor(1):      1597  1 _wide_cleanup_overlap_q
+F 453.0.0 1616 1
+S 477.0.0 1691 1
+# capacitor(1):      1263  1 _copy
+F 486.0.0 1721 0
+S 487.0.0 1729 0
+# capacitor(0):      2883  1 _tag_violation
+F 477.0.0 1691 1
+S 489.0.0 1732 1
+# capacitor(1):      8172  1 _external_q
+F 487.0.0 1729 0
+S 1050.0.0 3316 0
+# capacitor(0):      1278  1 _copy
+F 1050.0.0 3316 0
+S 1059.0.0 3339 0
+# capacitor(0):      1111  1 _boolean_or
+F 489.0.0 1732 1
+S 490.0.0 1740 1
+# capacitor(1):      2889  1 _tag_violation
+F 1059.0.0 3339 0
+S 1060.0.0 3342 0
+# capacitor(0):       427  1 _create_q
+F 490.0.0 1740 1
+S 1048.0.0 3311 1
+# capacitor(1):      1278  1 _copy
+F 1060.0.0 3342 0
+S 1063.0.0 3353 0
+# capacitor(0):      6857  1 _external_q
+F 1048.0.0 3311 1
+S 1053.0.0 3324 1
+# capacitor(1):      1176  1 _boolean_or_list
+F 1063.0.0 3353 0
+S 1064.0.0 3361 0
+# capacitor(0):      2343  1 _tag_violation
+F 1064.0.0 3361 0
+S 1049.0.0 3314 0
+# capacitor(0):       431  1 _create_q
+F 1053.0.0 3324 1
+S 1054.0.0 3327 1
+# capacitor(1):       428  1 _create_q
+F 1049.0.0 3314 0
+S 1061.0.0 3344 0
+# capacitor(0):      8038  1 _external_q
+F 1054.0.0 3327 1
+S 1055.0.0 3329 1
+# capacitor(1):      2651  1 _boolean_not_q
+F 1055.0.0 3329 1
+S 1056.0.0 3333 1
+# capacitor(1):      1105  1 _tag_violation
+F 1061.0.0 3344 0
+S 1062.0.0 3352 0
+# capacitor(0):      2813  1 _tag_violation
+F 1056.0.0 3333 1
+S 1057.0.0 3334 1
+# capacitor(1):      3268  1 _center_to_center_q
+F 1062.0.0 3352 0
+S 369.0.0 1388 0
+# capacitor(0):      4207  1 _optimize_unmerged_layer_dp
+F 1057.0.0 3334 1
+S 1058.0.0 3338 1
+# capacitor(1):      1608  1 _tag_violation
+F 1058.0.0 3338 1
+S 367.0.0 1378 1
+# capacitor(1):      4112  1 _optimize_layer_dp
+F 369.0.0 1388 0
+S 680.0.0 2310 0
+# capacitor(0):      1037  1 _tag_violation
+F 680.0.0 2310 0
+S 678.0.0 2307 0
+# capacitor(0):      3085  1 _tag_violation
+F 678.0.0 2307 0
+S 364.0.0 1367 0
+# capacitor(0):      4223  1 _optimize_unmerged_layer_dp
+F 367.0.0 1378 1
+S 368.0.0 1383 1
+# capacitor(1):      2826  1 _compress_isolated
+F 364.0.0 1367 0
+S 363.0.0 1362 0
+# capacitor(0):      4219  1 _optimize_unmerged_layer_dp
+F 363.0.0 1362 0
+S 1114.0.0 3498 0
+# capacitor(0):      2851  1 _tag_violation
+F 368.0.0 1383 1
+S 1120.0.0 3512 1
+# capacitor(1):      1163  1 _copy
+F 1114.0.0 3498 0
+S 1117.0.0 3504 0
+# capacitor(0):      1165  1 _copy
+F 1120.0.0 3512 1
+S 697.0.0 2367 1
+# capacitor(1):      3040  1 _explode_rotation
+F 1117.0.0 3504 0
+S 651.0.0 2220 0
+# capacitor(0):       389  1 _create_q
+F 697.0.0 2367 1
+S 698.0.0 2370 1
+# capacitor(1):      2995  1 _compress_isolated
+F 651.0.0 2220 0
+S 1112.0.0 3495 0
+# capacitor(0):      2845  1 _tag_violation
+F 1112.0.0 3495 0
+S 1110.0.0 3492 0
+# capacitor(0):      2845  1 _tag_violation
+F 698.0.0 2370 1
+S 699.0.0 2375 1
+# capacitor(1):       406  1 _create_q
+F 1110.0.0 3492 0
+S 361.0.0 1352 0
+# capacitor(0):      4120  1 _optimize_layer_dp
+F 699.0.0 2375 1
+S 707.0.0 2398 1
+# capacitor(1):      5570  1 _internal_q
+F 707.0.0 2398 1
+S 716.0.0 2425 1
+# capacitor(1):      1144  1 _merge_dirty_layer
+F 361.0.0 1352 0
+S 362.0.0 1357 0
+# capacitor(0):      2834  1 _compress_isolated
+F 716.0.0 2425 1
+S 718.0.0 2429 1
+# capacitor(1):       434  1 _create_q
+F 362.0.0 1357 0
+S 432.0.0 1564 0
+# capacitor(0):       463  1 _create_q
+F 718.0.0 2429 1
+S 431.0.0 1562 1
+# capacitor(1):       529  1 _create_q
+F 432.0.0 1564 0
+S 1087.0.0 3418 0
+# capacitor(0):      1862  1 _rectangles_q
+F 1087.0.0 3418 0
+S 1091.0.0 3432 0
+# capacitor(0):      1280  1 _copy
+F 1091.0.0 3432 0
+S 1092.0.0 3435 0
+# capacitor(0):       465  1 _create_q
+F 431.0.0 1562 1
+S 1115.0.0 3499 1
+# capacitor(1):      2588  1 _boolean_not_q
+F 1092.0.0 3435 0
+S 1121.0.0 3515 0
+# capacitor(0):      3936  1 _covered_by_q
+F 1121.0.0 3515 0
+S 1122.0.0 3519 0
+# capacitor(0):      2096  1 _tag_violation
+F 1115.0.0 3499 1
+S 1116.0.0 3503 1
+# capacitor(1):      1218  1 _tag_violation
+F 1122.0.0 3519 0
+S 1085.0.0 3413 0
+# capacitor(0):      3936  1 _covered_by_q
+F 1116.0.0 3503 1
+S 1079.0.0 3397 1
+# capacitor(1):      2642  1 _boolean_not_q
+F 1085.0.0 3413 0
+S 1086.0.0 3417 0
+# capacitor(0):      2096  1 _tag_violation
+F 1079.0.0 3397 1
+S 1080.0.0 3401 1
+# capacitor(1):      1218  1 _tag_violation
+F 1086.0.0 3417 0
+S 1065.0.0 3362 0
+# capacitor(0):      1931  1 _boolean_and_q
+F 1080.0.0 3401 1
+S 635.0.0 2182 1
+# capacitor(1):      2573  1 _level_one_q
+F 635.0.0 2182 1
+S 636.0.0 2186 1
+# capacitor(1):      1620  1 _select_donut_hole
+F 636.0.0 2186 1
+S 637.0.0 2189 1
+# capacitor(1):      1452  1 _compress_isolated
+F 1065.0.0 3362 0
+S 1066.0.0 3366 0
+# capacitor(0):       463  1 _create_q
+F 637.0.0 2189 1
+S 638.0.0 2194 1
+# capacitor(1):       391  1 _create_q
+F 638.0.0 2194 1
+S 639.0.0 2196 1
+# capacitor(1):      1888  1 _area_q
+F 1066.0.0 3366 0
+S 1067.0.0 3368 0
+# capacitor(0):      7704  1 _enclose_q
+F 639.0.0 2196 1
+S 640.0.0 2199 1
+# capacitor(1):      1198  1 _tag_violation
+F 1067.0.0 3368 0
+S 1068.0.0 3376 0
+# capacitor(0):      2839  1 _tag_violation
+F 1068.0.0 3376 0
+S 633.0.0 2178 0
+# capacitor(0):      1858  1 _area_q
+F 633.0.0 2178 0
+S 634.0.0 2181 0
+# capacitor(0):      1185  1 _tag_violation
+F 634.0.0 2181 0
+S 566.0.0 1965 0
+# capacitor(0):      2228  1 _vertex_q
+F 640.0.0 2199 1
+S 564.0.0 1956 1
+# capacitor(1):      6856  1 _external_q
+F 566.0.0 1965 0
+S 568.0.0 1972 0
+# capacitor(0):       453  1 _create_q
+F 564.0.0 1956 1
+S 565.0.0 1964 1
+# capacitor(1):      2419  1 _tag_violation
+F 568.0.0 1972 0
+S 567.0.0 1970 0
+# capacitor(0):       453  1 _create_q
+F 565.0.0 1964 1
+S 562.0.0 1947 1
+# capacitor(1):      6755  1 _external_q
+F 567.0.0 1970 0
+S 569.0.0 1974 0
+# capacitor(0):      2249  1 _interacting_edge_q
+F 562.0.0 1947 1
+S 563.0.0 1955 1
+# capacitor(1):      2324  1 _tag_violation
+F 569.0.0 1974 0
+S 570.0.0 1980 0
+# capacitor(0):      1861  1 _compress_isolated
+F 570.0.0 1980 0
+S 571.0.0 1985 0
+# capacitor(0):       385  1 _create_q
+F 571.0.0 1985 0
+S 572.0.0 1987 0
+# capacitor(0):      2200  1 _length_edge_q
+F 563.0.0 1955 1
+S 549.0.0 1909 1
+# capacitor(1):      2442  1 _find_wide_q
+F 572.0.0 1987 0
+S 573.0.0 1991 0
+# capacitor(0):      1363  1 _tag_violation
+F 549.0.0 1909 1
+S 555.0.0 1927 1
+# capacitor(1):      1838  1 _wide_cleanup_overlap_q
+F 555.0.0 1927 1
+S 579.0.0 2001 1
+# capacitor(1):      1260  1 _copy
+F 579.0.0 2001 1
+S 585.0.0 2021 1
+# capacitor(1):       467  1 _create_q
+F 585.0.0 2021 1
+S 586.0.0 2023 1
+# capacitor(1):      8168  1 _external_q
+F 573.0.0 1991 0
+S 553.0.0 1921 0
+# capacitor(0):      1838  1 _wide_cleanup_overlap_q
+F 586.0.0 2023 1
+S 587.0.0 2031 1
+# capacitor(1):      2888  1 _tag_violation
+F 553.0.0 1921 0
+S 578.0.0 1998 0
+# capacitor(0):      1263  1 _copy
+F 578.0.0 1998 0
+S 582.0.0 2010 0
+# capacitor(0):       469  1 _create_q
+F 582.0.0 2010 0
+S 583.0.0 2012 0
+# capacitor(0):      8169  1 _external_q
+F 583.0.0 2012 0
+S 584.0.0 2020 0
+# capacitor(0):      2888  1 _tag_violation
+F 587.0.0 2031 1
+S 551.0.0 1915 1
+# capacitor(1):      1838  1 _wide_cleanup_overlap_q
+F 551.0.0 1915 1
+S 560.0.0 1943 1
+# capacitor(1):      1772  1 _copy
+F 560.0.0 1943 1
+S 561.0.0 1946 1
+# capacitor(1):      1088  1 _tag_violation
+F 561.0.0 1946 1
+S 559.0.0 1939 1
+# capacitor(1):      1597  1 _wide_cleanup_overlap_q
+F 559.0.0 1939 1
+S 581.0.0 2007 1
+# capacitor(1):      1263  1 _copy
+F 584.0.0 2020 0
+S 557.0.0 1933 0
+# capacitor(0):      1597  1 _wide_cleanup_overlap_q
+F 581.0.0 2007 1
+S 592.0.0 2045 1
+# capacitor(1):      8172  1 _external_q
+F 557.0.0 1933 0
+S 580.0.0 2004 0
+# capacitor(0):      1257  1 _copy
+F 580.0.0 2004 0
+S 589.0.0 2034 0
+# capacitor(0):      8136  1 _external_q
+F 592.0.0 2045 1
+S 593.0.0 2053 1
+# capacitor(1):      2889  1 _tag_violation
+F 593.0.0 2053 1
+S 546.0.0 1899 1
+# capacitor(1):      6112  1 _internal_q
+F 589.0.0 2034 0
+S 590.0.0 2042 0
+# capacitor(0):      2883  1 _tag_violation
+F 590.0.0 2042 0
+S 1090.0.0 3429 0
+# capacitor(0):      1278  1 _copy
+F 1090.0.0 3429 0
+S 1099.0.0 3452 0
+# capacitor(0):      1111  1 _boolean_or
+F 1099.0.0 3452 0
+S 1100.0.0 3455 0
+# capacitor(0):       427  1 _create_q
+F 1100.0.0 3455 0
+S 1103.0.0 3466 0
+# capacitor(0):      6857  1 _external_q
+F 1103.0.0 3466 0
+S 1104.0.0 3474 0
+# capacitor(0):      2343  1 _tag_violation
+F 1104.0.0 3474 0
+S 1088.0.0 3424 0
+# capacitor(0):      1278  1 _copy
+F 546.0.0 1899 1
+S 547.0.0 1906 1
+# capacitor(1):      2758  1 _tag_violation
+F 1088.0.0 3424 0
+S 1093.0.0 3437 0
+# capacitor(0):      1176  1 _boolean_or_list
+F 547.0.0 1906 1
+S 1089.0.0 3427 1
+# capacitor(1):       431  1 _create_q
+F 1089.0.0 3427 1
+S 1101.0.0 3457 1
+# capacitor(1):      8038  1 _external_q
+F 1093.0.0 3437 0
+S 1094.0.0 3440 0
+# capacitor(0):       428  1 _create_q
+F 1094.0.0 3440 0
+S 1095.0.0 3442 0
+# capacitor(0):      2651  1 _boolean_not_q
+F 1101.0.0 3457 1
+S 1102.0.0 3465 1
+# capacitor(1):      2813  1 _tag_violation
+F 1095.0.0 3442 0
+S 1096.0.0 3446 0
+# capacitor(0):      1105  1 _tag_violation
+F 1102.0.0 3465 1
+S 1097.0.0 3447 1
+# capacitor(1):      3268  1 _center_to_center_q
+F 1096.0.0 3446 0
+S 717.0.0 2427 0
+# capacitor(0):       440  1 _create_q
+F 717.0.0 2427 0
+S 719.0.0 2431 0
+# capacitor(0):      1969  1 _boolean_not_q
+F 1097.0.0 3447 1
+S 1098.0.0 3451 1
+# capacitor(1):      1608  1 _tag_violation
+F 719.0.0 2431 0
+S 732.0.0 2477 0
+# capacitor(0):      2909  1 _explode_rotation
+F 732.0.0 2477 0
+S 733.0.0 2480 0
+# capacitor(0):       391  1 _create_q
+F 733.0.0 2480 0
+S 734.0.0 2482 0
+# capacitor(0):      6964  1 _external_q
+F 1098.0.0 3451 1
+S 708.0.0 2405 1
+# capacitor(1):      1143  1 _merge_dirty_layer
+F 734.0.0 2482 0
+S 735.0.0 2490 0
+# capacitor(0):      2450  1 _tag_violation
+F 708.0.0 2405 1
+S 710.0.0 2409 1
+# capacitor(1):       434  1 _create_q
+F 735.0.0 2490 0
+S 709.0.0 2407 0
+# capacitor(0):       440  1 _create_q
+F 710.0.0 2409 1
+S 700.0.0 2377 1
+# capacitor(1):      5572  1 _internal_q
+F 709.0.0 2407 0
+S 711.0.0 2411 0
+# capacitor(0):      1968  1 _boolean_not_q
+F 711.0.0 2411 0
+S 724.0.0 2449 0
+# capacitor(0):      2908  1 _explode_rotation
+F 700.0.0 2377 1
+S 712.0.0 2415 1
+# capacitor(1):      1146  1 _merge_dirty_layer
+F 724.0.0 2449 0
+S 725.0.0 2452 0
+# capacitor(0):       391  1 _create_q
+F 725.0.0 2452 0
+S 726.0.0 2454 0
+# capacitor(0):      6963  1 _external_q
+F 712.0.0 2415 1
+S 714.0.0 2419 1
+# capacitor(1):       434  1 _create_q
+F 714.0.0 2419 1
+S 713.0.0 2417 1
+# capacitor(1):       440  1 _create_q
+F 726.0.0 2454 0
+S 727.0.0 2462 0
+# capacitor(0):      2449  1 _tag_violation
+F 713.0.0 2417 1
+S 715.0.0 2421 1
+# capacitor(1):      1971  1 _boolean_not_q
+F 727.0.0 2462 0
+S 701.0.0 2384 0
+# capacitor(0):      1145  1 _merge_dirty_layer
+F 715.0.0 2421 1
+S 728.0.0 2463 1
+# capacitor(1):      2911  1 _explode_rotation
+F 728.0.0 2463 1
+S 729.0.0 2466 1
+# capacitor(1):       391  1 _create_q
+F 701.0.0 2384 0
+S 703.0.0 2388 0
+# capacitor(0):       434  1 _create_q
+F 729.0.0 2466 1
+S 730.0.0 2468 1
+# capacitor(1):      6962  1 _external_q
+F 703.0.0 2388 0
+S 702.0.0 2386 0
+# capacitor(0):       440  1 _create_q
+F 702.0.0 2386 0
+S 704.0.0 2390 0
+# capacitor(0):      1970  1 _boolean_not_q
+F 730.0.0 2468 1
+S 731.0.0 2476 1
+# capacitor(1):      2452  1 _tag_violation
+F 731.0.0 2476 1
+S 385.0.0 1450 1
+# capacitor(1):      4211  1 _optimize_unmerged_layer_dp
+F 704.0.0 2390 0
+S 720.0.0 2435 0
+# capacitor(0):      2910  1 _explode_rotation
+F 720.0.0 2435 0
+S 721.0.0 2438 0
+# capacitor(0):       391  1 _create_q
+F 721.0.0 2438 0
+S 722.0.0 2440 0
+# capacitor(0):      6961  1 _external_q
+F 385.0.0 1450 1
+S 384.0.0 1445 1
+# capacitor(1):      4207  1 _optimize_unmerged_layer_dp
+F 722.0.0 2440 0
+S 723.0.0 2448 0
+# capacitor(0):      2451  1 _tag_violation
+F 723.0.0 2448 0
+S 382.0.0 1435 0
+# capacitor(0):      4112  1 _optimize_layer_dp
+F 384.0.0 1445 1
+S 379.0.0 1424 1
+# capacitor(1):      4223  1 _optimize_unmerged_layer_dp
+F 379.0.0 1424 1
+S 378.0.0 1419 1
+# capacitor(1):      4219  1 _optimize_unmerged_layer_dp
+F 382.0.0 1435 0
+S 383.0.0 1440 0
+# capacitor(0):      2826  1 _compress_isolated
+F 378.0.0 1419 1
+S 1148.0.0 3599 1
+# capacitor(1):      2845  1 _tag_violation
+F 383.0.0 1440 0
+S 376.0.0 1409 0
+# capacitor(0):      4120  1 _optimize_layer_dp
+F 1148.0.0 3599 1
+S 391.0.0 1476 1
+# capacitor(1):      4223  1 _optimize_unmerged_layer_dp
+F 391.0.0 1476 1
+S 390.0.0 1471 1
+# capacitor(1):      4219  1 _optimize_unmerged_layer_dp
+F 376.0.0 1409 0
+S 377.0.0 1414 0
+# capacitor(0):      2834  1 _compress_isolated
+F 390.0.0 1471 1
+S 388.0.0 1461 1
+# capacitor(1):      4120  1 _optimize_layer_dp
+F 377.0.0 1414 0
+S 434.0.0 1568 0
+# capacitor(0):       463  1 _create_q
+F 434.0.0 1568 0
+S 1125.0.0 3525 0
+# capacitor(0):      1862  1 _rectangles_q
+F 388.0.0 1461 1
+S 389.0.0 1466 1
+# capacitor(1):      2834  1 _compress_isolated
+F 1125.0.0 3525 0
+S 1129.0.0 3539 0
+# capacitor(0):      1280  1 _copy
+F 1129.0.0 3539 0
+S 1130.0.0 3542 0
+# capacitor(0):       465  1 _create_q
+F 389.0.0 1466 1
+S 1128.0.0 3536 1
+# capacitor(1):      1278  1 _copy
+F 1130.0.0 3542 0
+S 1126.0.0 3531 0
+# capacitor(0):      1278  1 _copy
+F 1128.0.0 3536 1
+S 1137.0.0 3559 1
+# capacitor(1):      1111  1 _boolean_or
+F 1126.0.0 3531 0
+S 1131.0.0 3544 0
+# capacitor(0):      1176  1 _boolean_or_list
+F 1137.0.0 3559 1
+S 1138.0.0 3562 1
+# capacitor(1):       427  1 _create_q
+F 1138.0.0 3562 1
+S 1141.0.0 3573 1
+# capacitor(1):      6860  1 _external_q
+F 1131.0.0 3544 0
+S 1132.0.0 3547 0
+# capacitor(0):       428  1 _create_q
+F 1132.0.0 3547 0
+S 1133.0.0 3549 0
+# capacitor(0):      2651  1 _boolean_not_q
+F 1141.0.0 3573 1
+S 1142.0.0 3581 1
+# capacitor(1):      2344  1 _tag_violation
+F 1142.0.0 3581 1
+S 1127.0.0 3534 1
+# capacitor(1):       431  1 _create_q
+F 1127.0.0 3534 1
+S 1139.0.0 3564 1
+# capacitor(1):      8038  1 _external_q
+F 1133.0.0 3549 0
+S 1134.0.0 3553 0
+# capacitor(0):      1105  1 _tag_violation
+F 1134.0.0 3553 0
+S 1135.0.0 3554 0
+# capacitor(0):      3265  1 _center_to_center_q
+F 1139.0.0 3564 1
+S 1140.0.0 3572 1
+# capacitor(1):      2813  1 _tag_violation
+F 1140.0.0 3572 1
+S 433.0.0 1566 1
+# capacitor(1):       529  1 _create_q
+F 1135.0.0 3554 0
+S 1136.0.0 3558 0
+# capacitor(0):      1607  1 _tag_violation
+F 433.0.0 1566 1
+S 1153.0.0 3610 1
+# capacitor(1):      3916  1 _covered_by_q
+F 1153.0.0 3610 1
+S 1154.0.0 3614 1
+# capacitor(1):      2096  1 _tag_violation
+F 1136.0.0 3558 0
+S 1149.0.0 3600 0
+# capacitor(0):      2622  1 _boolean_not_q
+F 1154.0.0 3614 1
+S 1123.0.0 3520 1
+# capacitor(1):      3936  1 _covered_by_q
+F 1149.0.0 3600 0
+S 1150.0.0 3604 0
+# capacitor(0):      1218  1 _tag_violation
+F 1123.0.0 3520 1
+S 1124.0.0 3524 1
+# capacitor(1):      2096  1 _tag_violation
+F 1150.0.0 3604 0
+S 1118.0.0 3507 0
+# capacitor(0):      2588  1 _boolean_not_q
+F 1124.0.0 3524 1
+S 1105.0.0 3475 1
+# capacitor(1):      1931  1 _boolean_and_q
+F 1118.0.0 3507 0
+S 1119.0.0 3511 0
+# capacitor(0):      1218  1 _tag_violation
+F 1119.0.0 3511 0
+S 738.0.0 2495 0
+# capacitor(0):      2573  1 _level_one_q
+F 1105.0.0 3475 1
+S 1106.0.0 3479 1
+# capacitor(1):       463  1 _create_q
+F 738.0.0 2495 0
+S 739.0.0 2499 0
+# capacitor(0):      1620  1 _select_donut_hole
+F 1106.0.0 3479 1
+S 1107.0.0 3481 1
+# capacitor(1):      7704  1 _enclose_q
+F 739.0.0 2499 0
+S 740.0.0 2502 0
+# capacitor(0):      1452  1 _compress_isolated
+F 740.0.0 2502 0
+S 742.0.0 2509 0
+# capacitor(0):      1888  1 _area_q
+F 742.0.0 2509 0
+S 743.0.0 2512 0
+# capacitor(0):      1198  1 _tag_violation
+F 1107.0.0 3481 1
+S 1108.0.0 3489 1
+# capacitor(1):      2839  1 _tag_violation
+F 743.0.0 2512 0
+S 736.0.0 2491 0
+# capacitor(0):      1858  1 _area_q
+F 1108.0.0 3489 1
+S 669.0.0 2278 1
+# capacitor(1):      2228  1 _vertex_q
+F 736.0.0 2491 0
+S 737.0.0 2494 0
+# capacitor(0):      1185  1 _tag_violation
+F 737.0.0 2494 0
+S 667.0.0 2269 0
+# capacitor(0):      6856  1 _external_q
+F 669.0.0 2278 1
+S 671.0.0 2285 1
+# capacitor(1):       453  1 _create_q
+F 667.0.0 2269 0
+S 668.0.0 2277 0
+# capacitor(0):      2419  1 _tag_violation
+F 671.0.0 2285 1
+S 670.0.0 2283 1
+# capacitor(1):       453  1 _create_q
+F 668.0.0 2277 0
+S 665.0.0 2260 0
+# capacitor(0):      6755  1 _external_q
+F 670.0.0 2283 1
+S 672.0.0 2287 1
+# capacitor(1):      2249  1 _interacting_edge_q
+F 665.0.0 2260 0
+S 666.0.0 2268 0
+# capacitor(0):      2324  1 _tag_violation
+F 672.0.0 2287 1
+S 673.0.0 2293 1
+# capacitor(1):      1861  1 _compress_isolated
+F 673.0.0 2293 1
+S 674.0.0 2298 1
+# capacitor(1):       385  1 _create_q
+F 674.0.0 2298 1
+S 675.0.0 2300 1
+# capacitor(1):      2200  1 _length_edge_q
+F 666.0.0 2268 0
+S 652.0.0 2222 0
+# capacitor(0):      2442  1 _find_wide_q
+F 675.0.0 2300 1
+S 676.0.0 2304 1
+# capacitor(1):      1363  1 _tag_violation
+F 652.0.0 2222 0
+S 658.0.0 2240 0
+# capacitor(0):      1838  1 _wide_cleanup_overlap_q
+F 658.0.0 2240 0
+S 682.0.0 2314 0
+# capacitor(0):      1260  1 _copy
+F 682.0.0 2314 0
+S 688.0.0 2334 0
+# capacitor(0):       467  1 _create_q
+F 688.0.0 2334 0
+S 689.0.0 2336 0
+# capacitor(0):      8168  1 _external_q
+F 676.0.0 2304 1
+S 656.0.0 2234 1
+# capacitor(1):      1838  1 _wide_cleanup_overlap_q
+F 689.0.0 2336 0
+S 690.0.0 2344 0
+# capacitor(0):      2888  1 _tag_violation
+F 656.0.0 2234 1
+S 681.0.0 2311 1
+# capacitor(1):      1263  1 _copy
+F 681.0.0 2311 1
+S 685.0.0 2323 1
+# capacitor(1):       469  1 _create_q
+F 685.0.0 2323 1
+S 686.0.0 2325 1
+# capacitor(1):      8169  1 _external_q
+F 690.0.0 2344 0
+S 654.0.0 2228 0
+# capacitor(0):      1838  1 _wide_cleanup_overlap_q
+F 686.0.0 2325 1
+S 687.0.0 2333 1
+# capacitor(1):      2888  1 _tag_violation
+F 654.0.0 2228 0
+S 663.0.0 2256 0
+# capacitor(0):      1772  1 _copy
+F 663.0.0 2256 0
+S 664.0.0 2259 0
+# capacitor(0):      1088  1 _tag_violation
+F 664.0.0 2259 0
+S 662.0.0 2252 0
+# capacitor(0):      1597  1 _wide_cleanup_overlap_q
+F 662.0.0 2252 0
+S 684.0.0 2320 0
+# capacitor(0):      1263  1 _copy
+F 684.0.0 2320 0
+S 695.0.0 2358 0
+# capacitor(0):      8172  1 _external_q
+F 687.0.0 2333 1
+S 660.0.0 2246 1
+# capacitor(1):      1597  1 _wide_cleanup_overlap_q
+F 695.0.0 2358 0
+S 696.0.0 2366 0
+# capacitor(0):      2889  1 _tag_violation
+F 660.0.0 2246 1
+S 683.0.0 2317 1
+# capacitor(1):      1257  1 _copy
+F 696.0.0 2366 0
+S 649.0.0 2212 0
+# capacitor(0):      6112  1 _internal_q
+F 683.0.0 2317 1
+S 692.0.0 2347 1
+# capacitor(1):      8136  1 _external_q
+F 692.0.0 2347 1
+S 693.0.0 2355 1
+# capacitor(1):      2883  1 _tag_violation
+F 649.0.0 2212 0
+S 650.0.0 2219 0
+# capacitor(0):      2758  1 _tag_violation
+F 693.0.0 2355 1
+S 397.0.0 1502 1
+# capacitor(1):      4211  1 _optimize_unmerged_layer_dp
+F 650.0.0 2219 0
+S 396.0.0 1497 0
+# capacitor(0):      4207  1 _optimize_unmerged_layer_dp
+F 397.0.0 1502 1
+S 394.0.0 1487 1
+# capacitor(1):      4112  1 _optimize_layer_dp
+F 396.0.0 1497 0
+S 1202.0.0 3735 0
+# capacitor(0):      1958  1 _tag_violation
+F 394.0.0 1487 1
+S 395.0.0 1492 1
+# capacitor(1):      2826  1 _compress_isolated
+F 1202.0.0 3735 0
+S 1198.0.0 3729 0
+# capacitor(0):      1074  1 _tag_violation
+F 1198.0.0 3729 0
+S 1196.0.0 3726 0
+# capacitor(0):      2839  1 _tag_violation
+F 1196.0.0 3726 0
+S 1020.0.0 3265 0
+# capacitor(0):      2934  1 _tag_violation
+F 395.0.0 1492 1
+S 437.0.0 1574 1
+# capacitor(1):       398  1 _create_q
+F 1020.0.0 3265 0
+S 436.0.0 1572 0
+# capacitor(0):       463  1 _create_q
+F 437.0.0 1574 1
+S 876.0.0 2975 1
+# capacitor(1):      5673  1 _internal_q
+F 436.0.0 1572 0
+S 1181.0.0 3697 0
+# capacitor(0):      2461  1 _boolean_not_q
+F 876.0.0 2975 1
+S 878.0.0 2984 1
+# capacitor(1):       430  1 _create_q
+F 1181.0.0 3697 0
+S 1182.0.0 3701 0
+# capacitor(0):      1074  1 _tag_violation
+F 878.0.0 2984 1
+S 877.0.0 2982 1
+# capacitor(1):       434  1 _create_q
+F 1182.0.0 3701 0
+S 1157.0.0 3620 0
+# capacitor(0):      1862  1 _rectangles_q
+F 877.0.0 2982 1
+S 879.0.0 2986 1
+# capacitor(1):      1962  1 _boolean_not_q
+F 1157.0.0 3620 0
+S 1161.0.0 3634 0
+# capacitor(0):      1280  1 _copy
+F 879.0.0 2986 1
+S 904.0.0 3064 1
+# capacitor(1):       465  1 _create_q
+F 1161.0.0 3634 0
+S 1185.0.0 3707 0
+# capacitor(0):      3761  1 _covered_by_q
+F 904.0.0 3064 1
+S 880.0.0 2990 1
+# capacitor(1):       431  1 _create_q
+F 880.0.0 2990 1
+S 915.0.0 3101 1
+# capacitor(1):      7023  1 _external_q
+F 1185.0.0 3707 0
+S 1186.0.0 3711 0
+# capacitor(0):      1958  1 _tag_violation
+F 1186.0.0 3711 0
+S 905.0.0 3066 0
+# capacitor(0):      8209  1 _external_q
+F 915.0.0 3101 1
+S 916.0.0 3109 1
+# capacitor(1):      2424  1 _tag_violation
+F 916.0.0 3109 1
+S 1160.0.0 3631 1
+# capacitor(1):      1278  1 _copy
+F 905.0.0 3066 0
+S 906.0.0 3074 0
+# capacitor(0):      2886  1 _tag_violation
+F 1160.0.0 3631 1
+S 1169.0.0 3654 1
+# capacitor(1):      1111  1 _boolean_or
+F 906.0.0 3074 0
+S 1158.0.0 3626 0
+# capacitor(0):      1278  1 _copy
+F 1169.0.0 3654 1
+S 1173.0.0 3668 1
+# capacitor(1):      6860  1 _external_q
+F 1158.0.0 3626 0
+S 1163.0.0 3639 0
+# capacitor(0):      1176  1 _boolean_or_list
+F 1173.0.0 3668 1
+S 1174.0.0 3676 1
+# capacitor(1):      2344  1 _tag_violation
+F 1163.0.0 3639 0
+S 1159.0.0 3629 0
+# capacitor(0):       362  1 _create_q
+F 1174.0.0 3676 1
+S 862.0.0 2925 1
+# capacitor(1):      2231  1 _vertex_q
+F 1159.0.0 3629 0
+S 1171.0.0 3659 0
+# capacitor(0):      8038  1 _external_q
+F 862.0.0 2925 1
+S 864.0.0 2932 1
+# capacitor(1):       453  1 _create_q
+F 1171.0.0 3659 0
+S 1172.0.0 3667 0
+# capacitor(0):      2813  1 _tag_violation
+F 864.0.0 2932 1
+S 863.0.0 2930 1
+# capacitor(1):       453  1 _create_q
+F 1172.0.0 3667 0
+S 1167.0.0 3649 0
+# capacitor(0):      3265  1 _center_to_center_q
+F 863.0.0 2930 1
+S 865.0.0 2934 1
+# capacitor(1):      2248  1 _interacting_edge_q
+F 1167.0.0 3649 0
+S 1168.0.0 3653 0
+# capacitor(0):      1607  1 _tag_violation
+F 1168.0.0 3653 0
+S 1164.0.0 3642 0
+# capacitor(0):       305  1 _create_q
+F 1164.0.0 3642 0
+S 1165.0.0 3644 0
+# capacitor(0):      2651  1 _boolean_not_q
+F 865.0.0 2934 1
+S 866.0.0 2940 1
+# capacitor(1):      1860  1 _compress_isolated
+F 1165.0.0 3644 0
+S 1166.0.0 3648 0
+# capacitor(0):      1105  1 _tag_violation
+F 1166.0.0 3648 0
+S 860.0.0 2916 0
+# capacitor(0):      6759  1 _external_q
+F 866.0.0 2940 1
+S 867.0.0 2945 1
+# capacitor(1):       385  1 _create_q
+F 867.0.0 2945 1
+S 868.0.0 2947 1
+# capacitor(1):      2197  1 _length_edge_q
+F 860.0.0 2916 0
+S 861.0.0 2924 0
+# capacitor(0):      2324  1 _tag_violation
+F 861.0.0 2924 0
+S 838.0.0 2850 0
+# capacitor(0):      5645  1 _internal_q
+F 868.0.0 2947 1
+S 869.0.0 2951 1
+# capacitor(1):      1362  1 _tag_violation
+F 838.0.0 2850 0
+S 841.0.0 2861 0
+# capacitor(0):      2006  1 _boolean_not_q
+F 841.0.0 2861 0
+S 873.0.0 2963 0
+# capacitor(0):      6820  1 _external_q
+F 873.0.0 2963 0
+S 874.0.0 2971 0
+# capacitor(0):      2331  1 _tag_violation
+F 874.0.0 2971 0
+S 837.0.0 2843 0
+# capacitor(0):      5645  1 _internal_q
+F 837.0.0 2843 0
+S 844.0.0 2869 0
+# capacitor(0):      2021  1 _boolean_not_q
+F 869.0.0 2951 1
+S 836.0.0 2836 1
+# capacitor(1):      5645  1 _internal_q
+F 844.0.0 2869 0
+S 835.0.0 2829 0
+# capacitor(0):      5645  1 _internal_q
+F 836.0.0 2836 1
+S 847.0.0 2877 1
+# capacitor(1):      2021  1 _boolean_not_q
+F 835.0.0 2829 0
+S 834.0.0 2822 0
+# capacitor(0):      5645  1 _internal_q
+F 847.0.0 2877 1
+S 850.0.0 2885 1
+# capacitor(1):      2021  1 _boolean_not_q
+F 834.0.0 2822 0
+S 884.0.0 3003 0
+# capacitor(0):       429  1 _create_q
+F 884.0.0 3003 0
+S 883.0.0 3001 0
+# capacitor(0):       435  1 _create_q
+F 883.0.0 3001 0
+S 885.0.0 3005 0
+# capacitor(0):      2059  1 _boolean_not_q
+F 850.0.0 2885 1
+S 852.0.0 2891 1
+# capacitor(1):       333  1 _create_q
+F 852.0.0 2891 1
+S 851.0.0 2889 1
+# capacitor(1):       333  1 _create_q
+F 885.0.0 3005 0
+S 892.0.0 3026 0
+# capacitor(0):      2076  1 _boolean_not_q
+F 851.0.0 2889 1
+S 853.0.0 2893 1
+# capacitor(1):      1665  1 _boolean_not_q
+F 892.0.0 3026 0
+S 899.0.0 3047 0
+# capacitor(0):      2090  1 _boolean_not_q
+F 853.0.0 2893 1
+S 854.0.0 2897 1
+# capacitor(1):      1689  1 _compress_isolated
+F 899.0.0 3047 0
+S 908.0.0 3077 0
+# capacitor(0):       467  1 _create_q
+F 908.0.0 3077 0
+S 907.0.0 3075 0
+# capacitor(0):       467  1 _create_q
+F 854.0.0 2897 1
+S 911.0.0 3088 1
+# capacitor(1):       495  1 _create_q
+F 907.0.0 3075 0
+S 909.0.0 3079 0
+# capacitor(0):      8248  1 _external_q
+F 911.0.0 3088 1
+S 855.0.0 2902 1
+# capacitor(1):       388  1 _create_q
+F 855.0.0 2902 1
+S 871.0.0 2954 1
+# capacitor(1):      6826  1 _external_q
+F 909.0.0 3079 0
+S 910.0.0 3087 0
+# capacitor(0):      2918  1 _tag_violation
+F 910.0.0 3087 0
+S 856.0.0 2904 0
+# capacitor(0):      6195  1 _internal_q
+F 871.0.0 2954 1
+S 872.0.0 2962 1
+# capacitor(1):      2340  1 _tag_violation
+F 856.0.0 2904 0
+S 857.0.0 2911 0
+# capacitor(0):      2772  1 _tag_violation
+F 872.0.0 2962 1
+S 912.0.0 3090 1
+# capacitor(1):       305  1 _create_q
+F 912.0.0 3090 1
+S 913.0.0 3092 1
+# capacitor(1):      8244  1 _external_q
+F 857.0.0 2911 0
+S 786.0.0 2666 0
+# capacitor(0):      2166  1 _find_wide_q
+F 786.0.0 2666 0
+S 785.0.0 2664 0
+# capacitor(0):       317  1 _create_q
+F 913.0.0 3092 1
+S 914.0.0 3100 1
+# capacitor(1):      2902  1 _tag_violation
+F 785.0.0 2664 0
+S 788.0.0 2672 0
+# capacitor(0):      1862  1 _wide_cleanup_overlap_q
+F 914.0.0 3100 1
+S 435.0.0 1570 1
+# capacitor(1):       534  1 _create_q
+F 788.0.0 2672 0
+F 435.0.0 1570 1
+S 1183.0.0 3702 0
+# capacitor(0):      3762  1 _covered_by_q
+S 1179.0.0 3692 1
+# capacitor(1):      2462  1 _boolean_not_q
+F 1183.0.0 3702 0
+S 1184.0.0 3706 0
+# capacitor(0):      1958  1 _tag_violation
+F 1184.0.0 3706 0
+F 1179.0.0 3692 1
+S 1180.0.0 3696 0
+# capacitor(0):      1074  1 _tag_violation
+S 1175.0.0 3677 1
+# capacitor(1):      1940  1 _boolean_and_q
+F 1180.0.0 3696 0
+S 1155.0.0 3615 0
+# capacitor(0):      3782  1 _covered_by_q
+F 1175.0.0 3677 1
+S 1176.0.0 3681 1
+# capacitor(1):       463  1 _create_q
+F 1155.0.0 3615 0
+S 1156.0.0 3619 0
+# capacitor(0):      1958  1 _tag_violation
+F 1176.0.0 3681 1
+S 1177.0.0 3683 1
+# capacitor(1):      7704  1 _enclose_q
+F 1156.0.0 3619 0
+S 1151.0.0 3605 0
+# capacitor(0):      2482  1 _boolean_not_q
+F 1177.0.0 3683 1
+S 1178.0.0 3691 1
+# capacitor(1):      2839  1 _tag_violation
+F 1151.0.0 3605 0
+S 1152.0.0 3609 0
+# capacitor(0):      1074  1 _tag_violation
+F 1178.0.0 3691 1
+S 1143.0.0 3582 1
+# capacitor(1):      1936  1 _boolean_and_q
+F 1152.0.0 3609 0
+S 793.0.0 2687 0
+# capacitor(0):      5674  1 _internal_q
+F 1143.0.0 3582 1
+S 1144.0.0 3586 1
+# capacitor(1):       463  1 _create_q
+F 1144.0.0 3586 1
+S 1145.0.0 3588 1
+# capacitor(1):      7704  1 _enclose_q
+F 1145.0.0 3588 1
+S 1146.0.0 3596 1
+# capacitor(1):      2839  1 _tag_violation
+F 1146.0.0 3596 1
+S 772.0.0 2617 1
+# capacitor(1):      2232  1 _vertex_q
+F 793.0.0 2687 0
+S 795.0.0 2696 0
+# capacitor(0):       430  1 _create_q
+F 795.0.0 2696 0
+S 794.0.0 2694 0
+# capacitor(0):       434  1 _create_q
+F 794.0.0 2694 0
+S 796.0.0 2698 0
+# capacitor(0):      1962  1 _boolean_not_q
+F 772.0.0 2617 1
+S 774.0.0 2624 1
+# capacitor(1):       453  1 _create_q
+F 774.0.0 2624 1
+S 773.0.0 2622 1
+# capacitor(1):       453  1 _create_q
+F 773.0.0 2622 1
+S 775.0.0 2626 1
+# capacitor(1):      2248  1 _interacting_edge_q
+F 796.0.0 2698 0
+S 821.0.0 2776 0
+# capacitor(0):       465  1 _create_q
+F 821.0.0 2776 0
+S 797.0.0 2702 0
+# capacitor(0):       431  1 _create_q
+F 797.0.0 2702 0
+S 832.0.0 2813 0
+# capacitor(0):      7023  1 _external_q
+F 775.0.0 2626 1
+S 776.0.0 2632 1
+# capacitor(1):      1860  1 _compress_isolated
+F 832.0.0 2813 0
+S 833.0.0 2821 0
+# capacitor(0):      2424  1 _tag_violation
+F 833.0.0 2821 0
+S 822.0.0 2778 0
+# capacitor(0):      8209  1 _external_q
+F 776.0.0 2632 1
+S 777.0.0 2637 1
+# capacitor(1):       385  1 _create_q
+F 822.0.0 2778 0
+S 823.0.0 2786 0
+# capacitor(0):      2886  1 _tag_violation
+F 777.0.0 2637 1
+S 778.0.0 2639 1
+# capacitor(1):      2197  1 _length_edge_q
+F 823.0.0 2786 0
+S 770.0.0 2608 0
+# capacitor(0):      6760  1 _external_q
+F 778.0.0 2639 1
+S 779.0.0 2643 1
+# capacitor(1):      1362  1 _tag_violation
+F 770.0.0 2608 0
+S 771.0.0 2616 0
+# capacitor(0):      2324  1 _tag_violation
+F 771.0.0 2616 0
+S 768.0.0 2603 0
+# capacitor(0):      2464  1 _find_wide_q
+F 768.0.0 2603 0
+S 769.0.0 2607 0
+# capacitor(0):      1269  1 _tag_violation
+F 769.0.0 2607 0
+S 748.0.0 2541 0
+# capacitor(0):      5646  1 _internal_q
+F 748.0.0 2541 0
+S 751.0.0 2552 0
+# capacitor(0):      2006  1 _boolean_not_q
+F 779.0.0 2643 1
+S 783.0.0 2655 1
+# capacitor(1):      6820  1 _external_q
+F 751.0.0 2552 0
+S 747.0.0 2534 0
+# capacitor(0):      5646  1 _internal_q
+F 783.0.0 2655 1
+S 784.0.0 2663 1
+# capacitor(1):      2331  1 _tag_violation
+F 784.0.0 2663 1
+S 746.0.0 2527 1
+# capacitor(1):      5646  1 _internal_q
+F 747.0.0 2534 0
+S 754.0.0 2560 0
+# capacitor(0):      2021  1 _boolean_not_q
+F 746.0.0 2527 1
+S 745.0.0 2520 1
+# capacitor(1):      5646  1 _internal_q
+F 754.0.0 2560 0
+S 757.0.0 2568 0
+# capacitor(0):      2021  1 _boolean_not_q
+F 745.0.0 2520 1
+S 744.0.0 2513 1
+# capacitor(1):      5646  1 _internal_q
+F 757.0.0 2568 0
+S 760.0.0 2576 0
+# capacitor(0):      2021  1 _boolean_not_q
+F 760.0.0 2576 0
+S 792.0.0 2684 0
+# capacitor(0):      1264  1 _copy
+F 744.0.0 2513 1
+S 762.0.0 2582 1
+# capacitor(1):       354  1 _create_q
+F 792.0.0 2684 0
+S 875.0.0 2972 0
+# capacitor(0):      1067  1 _copy
+F 762.0.0 2582 1
+S 801.0.0 2715 1
+# capacitor(1):       319  1 _create_q
+F 875.0.0 2972 0
+S 902.0.0 3055 0
+# capacitor(0):      8265  1 _external_q
+F 801.0.0 2715 1
+S 895.0.0 3034 1
+# capacitor(1):      8253  1 _external_q
+F 902.0.0 3055 0
+S 903.0.0 3063 0
+# capacitor(0):      2934  1 _tag_violation
+F 895.0.0 3034 1
+S 896.0.0 3042 1
+# capacitor(1):      2920  1 _tag_violation
+F 903.0.0 3063 0
+S 888.0.0 3013 0
+# capacitor(0):      8239  1 _external_q
+F 896.0.0 3042 1
+S 881.0.0 2992 1
+# capacitor(1):      8223  1 _external_q
+F 881.0.0 2992 1
+S 882.0.0 3000 1
+# capacitor(1):      2887  1 _tag_violation
+F 888.0.0 3013 0
+S 889.0.0 3021 0
+# capacitor(0):      2904  1 _tag_violation
+F 882.0.0 3000 1
+S 798.0.0 2704 1
+# capacitor(1):      8224  1 _external_q
+F 889.0.0 3021 0
+S 761.0.0 2580 0
+# capacitor(0):       369  1 _create_q
+F 798.0.0 2704 1
+S 799.0.0 2712 1
+# capacitor(1):      2887  1 _tag_violation
+F 761.0.0 2580 0
+S 763.0.0 2584 0
+# capacitor(0):      2021  1 _boolean_not_q
+F 799.0.0 2712 1
+S 800.0.0 2713 1
+# capacitor(1):       319  1 _create_q
+F 800.0.0 2713 1
+S 791.0.0 2680 1
+# capacitor(1):      1621  1 _wide_cleanup_overlap_q
+F 791.0.0 2680 1
+S 858.0.0 2912 1
+# capacitor(1):      1770  1 _copy
+F 763.0.0 2584 0
+S 764.0.0 2588 0
+# capacitor(0):      1689  1 _compress_isolated
+F 858.0.0 2912 1
+S 859.0.0 2915 1
+# capacitor(1):      1086  1 _tag_violation
+F 859.0.0 2915 1
+S 802.0.0 2717 1
+# capacitor(1):      1746  1 _boolean_not_q
+F 802.0.0 2717 1
+S 809.0.0 2738 1
+# capacitor(1):      2076  1 _boolean_not_q
+F 764.0.0 2588 0
+S 828.0.0 2800 0
+# capacitor(0):       495  1 _create_q
+F 809.0.0 2738 1
+S 816.0.0 2759 1
+# capacitor(1):      2090  1 _boolean_not_q
+F 828.0.0 2800 0
+S 812.0.0 2746 0
+# capacitor(0):      8253  1 _external_q
+F 816.0.0 2759 1
+S 819.0.0 2767 1
+# capacitor(1):      8265  1 _external_q
+F 812.0.0 2746 0
+S 813.0.0 2754 0
+# capacitor(0):      2920  1 _tag_violation
+F 819.0.0 2767 1
+S 820.0.0 2775 1
+# capacitor(1):      2934  1 _tag_violation
+F 813.0.0 2754 0
+S 825.0.0 2789 0
+# capacitor(0):       467  1 _create_q
+F 820.0.0 2775 1
+S 824.0.0 2787 1
+# capacitor(1):       467  1 _create_q
+F 825.0.0 2789 0
+S 765.0.0 2593 0
+# capacitor(0):       388  1 _create_q
+F 824.0.0 2787 1
+S 826.0.0 2791 1
+# capacitor(1):      8248  1 _external_q
+F 765.0.0 2593 0
+S 781.0.0 2646 0
+# capacitor(0):      6826  1 _external_q
+F 826.0.0 2791 1
+S 827.0.0 2799 1
+# capacitor(1):      2918  1 _tag_violation
+F 827.0.0 2799 1
+S 766.0.0 2595 1
+# capacitor(1):      6195  1 _internal_q
+F 781.0.0 2646 0
+S 782.0.0 2654 0
+# capacitor(0):      2340  1 _tag_violation
+F 766.0.0 2595 1
+S 767.0.0 2602 1
+# capacitor(1):      2772  1 _tag_violation
+F 782.0.0 2654 0
+S 829.0.0 2802 0
+# capacitor(0):       305  1 _create_q
+F 829.0.0 2802 0
+S 830.0.0 2804 0
+# capacitor(0):      8244  1 _external_q
+F 767.0.0 2602 1
+S 805.0.0 2725 1
+# capacitor(1):      8239  1 _external_q
+F 830.0.0 2804 0
+S 831.0.0 2812 0
+# capacitor(0):      2902  1 _tag_violation
+F 831.0.0 2812 0
+S 1018.0.0 3262 0
+# capacitor(0):      2920  1 _tag_violation
+F 1018.0.0 3262 0
+S 1016.0.0 3259 0
+# capacitor(0):      2904  1 _tag_violation
+F 805.0.0 2725 1
+S 806.0.0 2733 1
+# capacitor(1):      2904  1 _tag_violation
+F 1016.0.0 3259 0
+S 1014.0.0 3256 0
+# capacitor(0):      2887  1 _tag_violation
+F 806.0.0 2733 1
+S 992.0.0 3223 1
+# capacitor(1):      2934  1 _tag_violation
+F 1014.0.0 3256 0
+S 990.0.0 3220 0
+# capacitor(0):      2920  1 _tag_violation
+F 990.0.0 3220 0
+S 988.0.0 3217 0
+# capacitor(0):      2904  1 _tag_violation
+F 992.0.0 3223 1
+S 986.0.0 3214 1
+# capacitor(1):      2887  1 _tag_violation
+F 988.0.0 3217 0
+S 964.0.0 3181 0
+# capacitor(0):      2934  1 _tag_violation
+F 986.0.0 3214 1
+S 962.0.0 3178 1
+# capacitor(1):      2920  1 _tag_violation
+F 964.0.0 3181 0
+S 960.0.0 3175 0
+# capacitor(0):      2904  1 _tag_violation
+F 960.0.0 3175 0
+S 958.0.0 3172 0
+# capacitor(0):      2887  1 _tag_violation
+F 962.0.0 3178 1
+S 936.0.0 3139 1
+# capacitor(1):      2934  1 _tag_violation
+F 958.0.0 3172 0
+S 934.0.0 3136 0
+# capacitor(0):      2920  1 _tag_violation
+F 934.0.0 3136 0
+S 932.0.0 3133 0
+# capacitor(0):      2904  1 _tag_violation
+F 936.0.0 3139 1
+S 930.0.0 3130 1
+# capacitor(1):      2887  1 _tag_violation
+F 932.0.0 3133 0
+S 1258.0.0 3819 0
+# capacitor(0):      1958  1 _tag_violation
+F 930.0.0 3130 1
+S 1256.0.0 3816 1
+# capacitor(1):      1958  1 _tag_violation
+F 1258.0.0 3819 0
+S 1254.0.0 3813 0
+# capacitor(0):      1074  1 _tag_violation
+F 1256.0.0 3816 1
+S 1252.0.0 3810 1
+# capacitor(1):      1074  1 _tag_violation
+F 1254.0.0 3813 0
+S 1250.0.0 3807 0
+# capacitor(0):      2839  1 _tag_violation
+F 1252.0.0 3810 1
+S 1248.0.0 3804 1
+# capacitor(1):      2344  1 _tag_violation
+F 1250.0.0 3807 0
+S 1246.0.0 3801 0
+# capacitor(0):      2813  1 _tag_violation
+F 1248.0.0 3804 1
+S 1244.0.0 3798 1
+# capacitor(1):      1607  1 _tag_violation
+F 1246.0.0 3801 0
+S 1242.0.0 3795 0
+# capacitor(0):      1105  1 _tag_violation
+F 1244.0.0 3798 1
+S 1240.0.0 3792 1
+# capacitor(1):      1958  1 _tag_violation
+F 1242.0.0 3795 0
+S 1238.0.0 3789 0
+# capacitor(0):      1958  1 _tag_violation
+F 1240.0.0 3792 1
+S 1236.0.0 3786 1
+# capacitor(1):      1074  1 _tag_violation
+F 1238.0.0 3789 0
+S 1234.0.0 3783 0
+# capacitor(0):      1074  1 _tag_violation
+F 1236.0.0 3786 1
+S 1232.0.0 3780 1
+# capacitor(1):      2839  1 _tag_violation
+F 1234.0.0 3783 0
+S 1230.0.0 3777 0
+# capacitor(0):      2344  1 _tag_violation
+F 1232.0.0 3780 1
+S 1228.0.0 3774 1
+# capacitor(1):      2813  1 _tag_violation
+F 1230.0.0 3777 0
+S 1226.0.0 3771 0
+# capacitor(0):      1607  1 _tag_violation
+F 1228.0.0 3774 1
+S 1224.0.0 3768 1
+# capacitor(1):      1105  1 _tag_violation
+F 1226.0.0 3771 0
+S 1222.0.0 3765 0
+# capacitor(0):      1958  1 _tag_violation
+F 1224.0.0 3768 1
+S 1220.0.0 3762 1
+# capacitor(1):      1958  1 _tag_violation
+F 1222.0.0 3765 0
+S 1218.0.0 3759 0
+# capacitor(0):      1074  1 _tag_violation
+F 1220.0.0 3762 1
+S 1216.0.0 3756 1
+# capacitor(1):      1074  1 _tag_violation
+F 1218.0.0 3759 0
+S 1214.0.0 3753 0
+# capacitor(0):      2839  1 _tag_violation
+F 1216.0.0 3756 1
+S 1212.0.0 3750 1
+# capacitor(1):      2344  1 _tag_violation
+F 1214.0.0 3753 0
+S 1210.0.0 3747 0
+# capacitor(0):      2813  1 _tag_violation
+F 1212.0.0 3750 1
+S 1208.0.0 3744 1
+# capacitor(1):      1607  1 _tag_violation
+F 1210.0.0 3747 0
+S 1206.0.0 3741 0
+# capacitor(0):      1105  1 _tag_violation
+F 1208.0.0 3744 1
+S 1204.0.0 3738 1
+# capacitor(1):      1958  1 _tag_violation
+F 1206.0.0 3741 0
+S 1200.0.0 3732 0
+# capacitor(0):      1074  1 _tag_violation
+F 1204.0.0 3738 1
+S 1194.0.0 3723 1
+# capacitor(1):      2344  1 _tag_violation
+F 1200.0.0 3732 0
+S 1192.0.0 3720 0
+# capacitor(0):      2813  1 _tag_violation
+F 1194.0.0 3723 1
+S 1190.0.0 3717 1
+# capacitor(1):      1607  1 _tag_violation
+F 1192.0.0 3720 0
+S 1188.0.0 3714 0
+# capacitor(0):      1105  1 _tag_violation
+F 1190.0.0 3717 1
+S 1040.0.0 3295 1
+# capacitor(1):      2735  1 _tag_violation
+F 1188.0.0 3714 0
+S 1038.0.0 3292 0
+# capacitor(0):      2333  1 _tag_violation
+F 1040.0.0 3295 1
+S 1036.0.0 3289 1
+# capacitor(1):      1336  1 _tag_violation
+F 1038.0.0 3292 0
+S 1034.0.0 3286 0
+# capacitor(0):      2301  1 _tag_violation
+F 1036.0.0 3289 1
+S 1032.0.0 3283 1
+# capacitor(1):      1276  1 _tag_violation
+F 1032.0.0 3283 1
+S 1030.0.0 3280 1
+# capacitor(1):      2734  1 _tag_violation
+F 1034.0.0 3286 0
+S 1028.0.0 3277 0
+# capacitor(0):      2424  1 _tag_violation
+F 1030.0.0 3280 1
+S 1026.0.0 3274 1
+# capacitor(1):      2902  1 _tag_violation
+F 1028.0.0 3277 0
+S 1024.0.0 3271 0
+# capacitor(0):      2918  1 _tag_violation
+F 1024.0.0 3271 0
+S 1022.0.0 3268 0
+# capacitor(0):      2886  1 _tag_violation
+F 1026.0.0 3274 1
+S 1012.0.0 3253 1
+# capacitor(1):      2331  1 _tag_violation
+F 1022.0.0 3268 0
+S 1010.0.0 3250 0
+# capacitor(0):      2340  1 _tag_violation
+F 1012.0.0 3253 1
+S 1008.0.0 3247 1
+# capacitor(1):      1362  1 _tag_violation
+F 1010.0.0 3250 0
+S 1006.0.0 3244 0
+# capacitor(0):      2324  1 _tag_violation
+F 1008.0.0 3247 1
+S 1004.0.0 3241 1
+# capacitor(1):      1269  1 _tag_violation
+F 1006.0.0 3244 0
+S 1002.0.0 3238 0
+# capacitor(0):      2772  1 _tag_violation
+F 1004.0.0 3241 1
+S 1000.0.0 3235 1
+# capacitor(1):      2424  1 _tag_violation
+F 1002.0.0 3238 0
+S 998.0.0 3232 0
+# capacitor(0):      2902  1 _tag_violation
+F 1000.0.0 3235 1
+S 996.0.0 3229 1
+# capacitor(1):      2918  1 _tag_violation
+F 998.0.0 3232 0
+S 994.0.0 3226 0
+# capacitor(0):      2886  1 _tag_violation
+F 996.0.0 3229 1
+S 984.0.0 3211 1
+# capacitor(1):      2331  1 _tag_violation
+F 994.0.0 3226 0
+S 982.0.0 3208 0
+# capacitor(0):      2340  1 _tag_violation
+F 984.0.0 3211 1
+S 980.0.0 3205 1
+# capacitor(1):      1362  1 _tag_violation
+F 982.0.0 3208 0
+S 978.0.0 3202 0
+# capacitor(0):      2324  1 _tag_violation
+F 980.0.0 3205 1
+S 976.0.0 3199 1
+# capacitor(1):      1269  1 _tag_violation
+F 978.0.0 3202 0
+S 974.0.0 3196 0
+# capacitor(0):      2772  1 _tag_violation
+F 976.0.0 3199 1
+S 972.0.0 3193 1
+# capacitor(1):      2424  1 _tag_violation
+F 974.0.0 3196 0
+S 970.0.0 3190 0
+# capacitor(0):      2902  1 _tag_violation
+F 972.0.0 3193 1
+S 968.0.0 3187 1
+# capacitor(1):      2918  1 _tag_violation
+F 970.0.0 3190 0
+S 966.0.0 3184 0
+# capacitor(0):      2886  1 _tag_violation
+F 968.0.0 3187 1
+S 956.0.0 3169 1
+# capacitor(1):      2331  1 _tag_violation
+F 966.0.0 3184 0
+S 954.0.0 3166 0
+# capacitor(0):      2340  1 _tag_violation
+F 954.0.0 3166 0
+F 956.0.0 3169 1
+S 952.0.0 3163 0
+# capacitor(0):      1362  1 _tag_violation
+S 950.0.0 3160 1
+# capacitor(1):      2324  1 _tag_violation
+F 952.0.0 3163 0
+S 948.0.0 3157 0
+# capacitor(0):      1269  1 _tag_violation
+F 950.0.0 3160 1
+S 946.0.0 3154 1
+# capacitor(1):      2772  1 _tag_violation
+F 948.0.0 3157 0
+S 944.0.0 3151 0
+# capacitor(0):      2424  1 _tag_violation
+F 946.0.0 3154 1
+S 942.0.0 3148 1
+# capacitor(1):      2902  1 _tag_violation
+F 944.0.0 3151 0
+S 940.0.0 3145 0
+# capacitor(0):      2918  1 _tag_violation
+F 942.0.0 3148 1
+S 938.0.0 3142 1
+# capacitor(1):      2886  1 _tag_violation
+F 940.0.0 3145 0
+S 928.0.0 3127 0
+# capacitor(0):      2331  1 _tag_violation
+F 928.0.0 3127 0
+F 938.0.0 3142 1
+S 926.0.0 3124 0
+# capacitor(0):      2340  1 _tag_violation
+S 924.0.0 3121 1
+# capacitor(1):      1362  1 _tag_violation
+F 926.0.0 3124 0
+S 922.0.0 3118 0
+# capacitor(0):      2324  1 _tag_violation
+F 924.0.0 3121 1
+S 920.0.0 3115 1
+# capacitor(1):      1269  1 _tag_violation
+F 922.0.0 3118 0
+S 918.0.0 3112 0
+# capacitor(0):      2772  1 _tag_violation
+F 920.0.0 3115 1
+S 441.0.0 1581 1
+# capacitor(1):      3086  1 _tag_violation
+F 918.0.0 3112 0
+S 439.0.0 1578 0
+# capacitor(0):      2694  1 _tag_violation
+F 441.0.0 1581 1
+S 317.0.0 1208 1
+# capacitor(1):       854  1 _grid_check_hierarchy
+F 439.0.0 1578 0
+F 0 0 0
+F 317.0.0 1208 1
+S 1260.0.0 3821 0
+# capacitor(0):       385  1 _accumulate_results
+F 1260.0.0 3821 0
+}
